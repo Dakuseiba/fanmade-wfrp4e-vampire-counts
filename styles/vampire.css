@@ -1,0 +1,158 @@
+/* Native WFRP layout with a Complete Counts vampire theme. */
+.cc-vampire-sheet .sheet-tabs a[data-tab="vampire"] i{color:#742b39;}
+.cc-vampire-tab{padding:0 4px;}
+.cc-vampire-tab fieldset{margin:8px 0;min-width:0;}
+.cc-vampire-tab .cc-actions{display:flex;flex-wrap:wrap;gap:4px;margin:6px 0;}
+.cc-vampire-tab .cc-actions button{flex:1;min-width:100px;}
+.cc-vampire-tab button{font:inherit;white-space:normal;height:auto;min-height:26px;}
+.cc-vampire-tab .form-group{margin:4px 0;}
+.cc-vampire-tab .form-fields{gap:6px;}
+.cc-vampire-tab .form-fields input[type="number"]{flex:0 0 60px;text-align:center;}
+.cc-vampire-tab .list-controls button{border:0;background:none;box-shadow:none;padding:0 6px;min-height:22px;}
+.cc-vampire-tab .list-name{padding-left:5px;}
+.cc-vampire-tab details{margin:8px 0;}
+.cc-vampire-tab summary{cursor:pointer;padding:5px 0;border-bottom:1px solid #998b74;font-weight:bold;}
+.cc-vampire-tab .cc-empty{font-style:italic;text-align:center;opacity:.65;margin:5px;}
+.cc-vampire-tab fieldset{padding:6px 8px;gap:0;}
+.cc-vampire-tab .form-group{display:flex;align-items:center;min-height:28px;height:auto;gap:6px;}
+.cc-vampire-tab .form-group>label{flex:0 0 36%;height:auto;line-height:26px;}
+.cc-vampire-tab .form-fields{display:flex;align-items:center;flex:1;min-width:0;height:auto;}
+.cc-vampire-tab .form-fields>button{flex:0 0 auto;min-width:92px;padding:2px 8px;}
+.cc-vampire-tab .form-fields>label{display:flex;align-items:center;gap:4px;white-space:nowrap;flex:1;font-size:12px;line-height:24px;background:none;border:0;box-shadow:none;}
+.cc-vampire-tab .form-fields input[type="checkbox"]{flex:0 0 16px;width:16px;height:16px;}
+.cc-vampire-tab .form-fields select{min-width:0;}
+.cc-vampire-tab .cc-actions{margin:4px 0;}
+
+.cc-vampire-tab .list-controls{display:flex;align-items:center;flex:0 0 auto;gap:3px;}
+.cc-vampire-tab .cc-rank{min-width:40px;text-align:center;white-space:nowrap;}
+
+.cc-form-art{margin:6px 0;}.cc-form-art>.form-fields{display:flex;gap:4px;}.cc-form-art input{min-width:0;flex:1;}.cc-vampire-tab .cc-form-art button{min-width:30px;}
+
+.cc-vampire-tab summary{color:#514d3c;}
+/* Scoped to the Complete Counts actor sheets; native WFRP structure remains intact. */
+.application.wfrp4e.actor.sheet.cc-vampire-sheet {
+ --cc-ink:#eee1cf; --cc-muted:#c0aa94; --cc-line:#79544c; --cc-red:#852f42;
+ --color-text-primary:var(--cc-ink); --color-text-secondary:var(--cc-muted);
+ --color-text-dark-primary:var(--cc-ink); --color-text-dark-secondary:var(--cc-muted);
+ --color-text-dark-inactive:#a48d81; --color-text-light-highlight:#fff3df;
+ --color-text-accent:#e3b78c; --color-warm:#dda78d; --color-faded:#76534b;
+ --color-grey1:#e6d8c6; --color-grey2:#c2a896;
+ --header-label-line:#73554d; --characteristic-border:#74544b;
+ --characteristic-input:#201b20; --characteristic-total:#49232e; --characteristic-header:#36222b;
+ --condition-border:#75544e; --condition-control-bg:#40222a;
+ --attribute-border:#75544e; --property-icon:#c29c79; --tag-border:#75544e;
+ color:var(--cc-ink); background:#151318; border:1px solid #8d6651;
+ box-shadow:0 16px 55px #000b,0 0 0 2px #19141a,inset 0 0 0 1px #342028;
+ border-radius:5px; color-scheme:dark;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .window-header {
+ background:linear-gradient(90deg,#251820,#58232e 50%,#251820)!important;
+ border-image:none!important; border-bottom:1px solid #956b51; color:#ead3b7;
+ box-shadow:inset 0 -2px 0 #190f15; text-shadow:0 1px 2px #000;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .window-header button {
+ background:#2b1721; border:1px solid #83584e; border-image:none; box-shadow:none; color:#efd8bb;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .window-content {
+ border-image:none!important; border:0; padding:34px 28px 28px;
+ background-image:url('../assets/nocturne-frame.svg'),radial-gradient(ellipse at 50% 0,#4c263455,transparent 65%),linear-gradient(100deg,#1d1920ed,#262025eb),url('/systems/wfrp4e/ui/backgrounds/parchment-texture.webp');
+ background-size:100% 100%,100% 100%,100% 100%,auto;
+ background-repeat:no-repeat,no-repeat,no-repeat,repeat;
+ color:var(--cc-ink); box-shadow:inset 0 0 25px #0007;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet :is(input,select,textarea) {
+ color:var(--cc-ink)!important; background:#17141aa6; border-color:var(--cc-line);
+ box-shadow:none; accent-color:#b84559; --input-text-color:var(--cc-ink);
+ --input-background-color:#1c171e; --input-focus-outline-color:#c87b80;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet :is(input,select,textarea):focus {
+ outline:1px solid #c37c80; outline-offset:1px; background:#32202b;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet input::placeholder {color:#ab9388;opacity:1;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet select option {background:#241b23;color:var(--cc-ink);}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .sheet-header input {background:transparent;border-bottom:1px solid #72534d;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .sheet-header input[name="name"] {color:#f6dfbf!important;font-size:14px;line-height:1.3;min-height:15px;padding:2px 4px 1px;letter-spacing:.02em;overflow:visible;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .sheet-header>.detail-row>.detail-group:has([data-action="editSpecies"]) {flex:1.7;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .sheet-header .detail-group label {color:var(--cc-muted);}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .sheet-header img {
+ border:2px solid #b48a61; border-radius:50%; box-shadow:0 0 0 4px #351c26,0 0 0 5px #6e4b46,0 4px 15px #0008;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet :is(a,label,legend,h1,h2,h3,h4,h5) {color:inherit;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet a:hover {color:#ffdbb8;text-shadow:0 0 7px #c44c68;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet :is(a,button):focus-visible {outline:2px solid #db9c80;outline-offset:2px;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet nav.sheet-tabs {
+ border:1px solid #76514d; border-image:none; background:#18141b; box-shadow:none; gap:0;
+ align-items:stretch; min-height:30px; height:auto;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet nav.sheet-tabs a {
+ color:#cebaa3; background:none; border:0; border-right:1px solid #573c3f; box-shadow:none;
+ text-shadow:none; padding:4px 2px; min-width:0;
+ display:flex; align-items:center; justify-content:center; gap:4px;
+ height:auto; min-height:28px; line-height:1; box-sizing:border-box;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet nav.sheet-tabs a i {line-height:1;margin:0;flex:none;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet nav.sheet-tabs a.active {
+ color:#fff0d7; background:linear-gradient(#773144,#45232e); box-shadow:inset 0 -2px 0 #d4a475;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet nav.sheet-tabs a:hover {background:#4a2431;color:#ffe2c4;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .sheet-tabs a[data-tab="vampire"] i {color:#d97886;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet :is(.sheet-list,.attribute-box,.characteristic-table,fieldset,.condition) {border-color:var(--cc-line);border-image:none;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet :is(.list-header,.attribute-box>.label,.attribute-box>label,.characteristic-table .table-header,.characteristic-grid .header) {
+ background:linear-gradient(90deg,#542634,#34232c);color:#f0dbbc;border-image:none;box-shadow:none;border-color:var(--cc-line);
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .list-header :is(a,label) {color:#f0dbbc;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .list-row {color:var(--cc-ink);border-color:#513d40;background:transparent;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .list-row:nth-child(even) {background:#d9b08706;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .list-row:hover {background:#8a3b4e24;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet :is(.dropdown-content,.item-summary,.editor-content,.condition-section,.choice-group) {color:var(--cc-ink);}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet :is(.dropdown-content,.item-summary) {background:#18141b;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .editor-section :is(p,li,h1,h2,h3,h4,h5,strong,em) {color:inherit;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .window-content :is(.content-link,.inline-roll,.action-link) {
+ color:#f0d3b2;background:#512936;border:1px solid #8d6256;box-shadow:none;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .window-content :is(.content-link,.inline-roll,.action-link)>i {color:#d2b392;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet button:not(.header-control) {
+ color:#efdcc6;background:linear-gradient(#633041,#3c202d);border:1px solid #95655e;
+ border-image:none;box-shadow:inset 0 1px 0 #e7bd8c18;text-shadow:none;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet button:not(.header-control):hover {background:#783647;color:#fff1d9;border-color:#d3a080;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet button:disabled {opacity:.45;cursor:default;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet :is(.list-controls,.sheet-buttons) button {background:none;border:0;box-shadow:none;color:#d9b392;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .condition :is(a,.controls) {color:#ead5ba;border-color:#76504d;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .condition.active {background:#652c3a;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet :is(.attribute-box,.characteristic-table) {color:var(--cc-ink);background:#201a21;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .characteristic-table :is(th,td) {border-color:#68494a;background:none;color:var(--cc-ink);}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .characteristic-table tr:last-child {background:#4b2633;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .cc-vampire-tab fieldset {
+ background:linear-gradient(110deg,#48232d24,#12101533);border:1px solid #76524d;border-radius:2px;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .cc-vampire-tab legend {color:#e4bc92;letter-spacing:.035em;padding:0 8px;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .cc-vampire-tab .form-group>label {background:none;border:0;box-shadow:none;color:#cab39e;text-align:left;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .cc-vampire-tab summary {color:#e0bd97;border-color:#73504b;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet #context-menu {background:#251a23;color:#f0dcc3;border:1px solid #a27761;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet ::-webkit-scrollbar-thumb {background:#844151;border-color:#241b23;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet {scrollbar-color:#844151 #20191f;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet :is(.encumbrance-section,.editor-section) {color:var(--cc-ink)!important;border-color:var(--cc-line);}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet :is(.encumbrance-section,.editor-section)>.header {color:#f0dbbc!important;background:linear-gradient(90deg,#542634,#34232c);border-color:var(--cc-line);box-shadow:none;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .encumbrance-section .status {color:var(--cc-ink);background:#201a21;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .mount-section .mount-drop {color:var(--cc-muted)!important;border-color:#986571!important;background:#21182066;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet .ap-source {color:#fff0db;}
+
+/* Let wrapped condition labels determine the entire row height. */
+.application.wfrp4e.actor.sheet.cc-vampire-sheet section.tab[data-tab=effects] .condition-section .condition {height:auto;min-height:2rem;line-height:1.25;align-items:stretch;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet section.tab[data-tab=effects] .condition-section .condition > :first-of-type {display:flex;align-items:center;min-width:0;padding:5px;overflow-wrap:anywhere;}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet section.tab[data-tab=effects] .condition-section .condition .controls {display:flex;align-items:center;justify-content:center;min-height:2rem;}
+
+
+/* Creature sheet readability: WFRP's Creature Overview has light-theme text rules that
+   otherwise become black on the Complete Counts dark sheet. */
+.application.wfrp4e.actor.sheet.cc-vampire-sheet.cc-vampire-creature-sheet section.tab[data-tab="main"] {
+ color:var(--cc-ink);
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet.cc-vampire-creature-sheet section.tab[data-tab="main"] :is(p,span,li,strong,em,label,legend,h1,h2,h3,h4,h5,a) {
+ color:var(--cc-ink)!important;
+}
+.application.wfrp4e.actor.sheet.cc-vampire-sheet.cc-vampire-creature-sheet section.tab[data-tab="main"] :is(.overview,.creature-overview,.description,.editor-section,.editor-content),
+.application.wfrp4e.actor.sheet.cc-vampire-sheet.cc-vampire-creature-sheet section.tab[data-tab="main"] :is(.overview,.creature-overview,.description,.editor-section,.editor-content) * {
+ color:var(--cc-ink)!important;
+}

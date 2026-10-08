@@ -1,0 +1,180 @@
+{
+  "id": "wfrp4e-complete-counts-pl",
+  "title": "Complete Counts PL — Władcy nocy",
+  "description": "Fanowski dodatek wampiryczny Adama Lowe’a: polska adaptacja, kompendia i narzędzia do rozgrywki.",
+  "version": "2.3.3",
+  "authors": [
+    {
+      "name": "Adaptacja prywatna Complete Counts; źródło: Adam Lowe"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351",
+    "maximum": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "9.5.2",
+          "verified": "9.5.2",
+          "maximum": "9.5.2"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "wfrp4e-core",
+        "type": "module"
+      },
+      {
+        "id": "warhammer-lib",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.10.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/module.css",
+    "styles/vampire.css"
+  ],
+  "packs": [
+    {
+      "name": "mutations",
+      "label": "CC · Vampiric Degeneration",
+      "path": "packs/mutations",
+      "type": "Item",
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gifts",
+      "label": "CC · Dary krwi",
+      "path": "packs/gifts",
+      "type": "Item",
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "CC · Nekromancja",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "careers",
+      "label": "CC · Profesje",
+      "path": "packs/careers",
+      "type": "Item",
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "weaknesses",
+      "label": "CC · Słabości",
+      "path": "packs/weaknesses",
+      "type": "Item",
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actors",
+      "label": "CC · Bestiariusz",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "CC · Tabele losowe",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "CC · Podręcznik",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "templates",
+      "label": "CC · Bloodline Templates",
+      "path": "packs/templates",
+      "type": "Item",
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "CC · Akcje wampira",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Complete Counts PL",
+      "sorting": "a",
+      "color": "#842c42",
+      "packs": [
+        "mutations",
+        "gifts",
+        "spells",
+        "careers",
+        "weaknesses",
+        "actors",
+        "tables",
+        "journals",
+        "templates",
+        "macros"
+      ]
+    }
+  ],
+  "flags": {
+    "privateAdaptation": true
+  }
+}

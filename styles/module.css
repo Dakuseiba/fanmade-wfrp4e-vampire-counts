@@ -1,0 +1,36 @@
+.cc-panel { --cc-red:#a12d45; --cc-muted:#aeb5c3; background:#161a24; color:#eef0f5; padding:18px; overflow:auto; height:100%; font:14px/1.5 sans-serif; }
+.cc-panel h2,.cc-panel h3 {color:#f3d5c4;border:0;margin:16px 0 8px;}
+.cc-panel .cc-hero {border-left:4px solid var(--cc-red);padding-left:16px;margin-bottom:16px;}
+.cc-panel .cc-hero h2{margin:0;font-size:25px;}
+.cc-panel p{margin:8px 0;}.cc-panel small,.cc-panel .muted{color:var(--cc-muted);}
+.cc-panel nav{display:flex;flex-wrap:wrap;gap:6px;border-bottom:1px solid #3a4152;padding-bottom:12px;margin-bottom:12px;}
+.cc-panel button{background:#30394d;color:#fff;border:1px solid #526079;border-radius:6px;padding:7px 12px;height:auto;white-space:normal;min-height:34px;cursor:pointer;}
+.cc-panel button:hover,.cc-panel button.active{background:#77283d;border-color:#c77083;}
+.cc-panel button:disabled{opacity:.5;cursor:wait;}.cc-panel .primary{background:#842c42;}
+.cc-panel .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+.cc-panel .card{background:#202634;border:1px solid #3a4152;border-radius:8px;padding:12px;}
+.cc-panel label{display:block;margin:9px 0 3px;color:#e9d6cd;}
+.cc-panel input,.cc-panel select{width:100%;background:#10141d;color:#f0f1f5;border:1px solid #65718a;border-radius:4px;padding:6px;height:35px;}
+.cc-panel input[type=checkbox]{width:auto;height:auto;}.cc-panel .actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0;}
+.cc-panel table{width:100%;border-collapse:collapse;}.cc-panel td,.cc-panel th{padding:7px;text-align:left;border-bottom:1px solid #42495a;}
+.cc-panel a{color:#f2b9c6;}.cc-panel .notice{border-left:3px solid #d8aa62;background:#342d26;padding:9px;}
+.cc-panel .badge{display:inline-block;padding:2px 7px;border:1px solid #64718a;border-radius:12px;margin:2px;}
+.cc-panel .cc-list{max-height:340px;overflow:auto;}.cc-panel .cc-list button{margin:4px;}.cc-panel summary{cursor:pointer;color:#e9b8c5;}
+@media(max-width:700px){.cc-panel .grid{grid-template-columns:1fr;}}
+
+/* Journal pages follow the core book layout without changing other journals. */
+.cc-journal { line-height: 1.5; }
+.cc-journal p { margin: .65em 0; }
+.cc-journal h2 { margin-top: 1.15em; }
+.cc-journal h3 { margin-top: 1em; }
+.cc-journal .cc-lead { font-size: 1.05em; }
+.cc-journal .cc-subtitle { margin-top: 0; }
+.cc-journal .cc-advance { width: 100%; table-layout: fixed; }
+.cc-journal .cc-advance th,
+.cc-journal .cc-advance td { width: 10%; text-align: center; padding: .35em .1em; }
+.cc-journal .cc-advance td { font-size: 1.15em; }
+.cc-journal .cc-advance th { background: #5c2431; color: #fff4da; }
+.cc-journal .cc-legend { text-align: center; font-size: .9em; }
+.cc-journal .cc-career-level { line-height: 1.65; }
+.cc-journal blockquote { border-left: 3px solid #842c42; padding: .2em .8em; margin: 1em 0; }
+.cc-journal a.content-link { display: inline-block; max-width: 100%; white-space: normal; overflow-wrap: break-word; }
