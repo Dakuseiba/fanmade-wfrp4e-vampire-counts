@@ -7,7 +7,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Przeciwstaw swój Cool testom Second Sight skierowanym przeciwko tobie. Daemonsroot and Witchbane przestaje na ciebie działać. Premia talentu dotyczy tych testów Cool.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Przeciwstaw swój Cool testom Second Sight skierowanym przeciwko tobie. Daemonsroot and Witchbane przestaje na ciebie działać. Premia talentu dotyczy tych testów Cool.</p>"
         },
         "max": {
           "value": "wp"
@@ -51,7 +51,7 @@
           "page": 30,
           "pl": "Eteryczny szyfr",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -62,7 +62,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Za każdy poziom otrzymujesz +1 Advantage w pierwszej rundzie walki, także w teście przeciwstawnym pozwalającym uniknąć Surprised.</p>"
+          "value": "<p><strong>Użycie:</strong> W pierwszej rundzie każdej walki.</p><p>Za każdy poziom otrzymujesz +1 Advantage w pierwszej rundzie walki, także w teście przeciwstawnym pozwalającym uniknąć Surprised.</p>"
         },
         "max": {
           "value": "fel"
@@ -104,7 +104,7 @@
           "page": 30,
           "pl": "Ponadczasowa przebiegłość",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -115,7 +115,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Zyskujesz 1 Armour Points na każdej lokacji za poziom daru. Armour Points poświęcone na odparcie trafienia krytycznego wymagają po 5 punktów wypitej krwi, aby się odtworzyć. Naprawiaj najpierw najbardziej uszkodzoną lokację; przy remisie wybierasz. Pancerz dodaje się do noszonej zbroi.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Zyskujesz 1 Armour Points na każdej lokacji za poziom daru. Armour Points poświęcone na odparcie trafienia krytycznego wymagają po 5 punktów wypitej krwi, aby się odtworzyć. Naprawiaj najpierw najbardziej uszkodzoną lokację; przy remisie wybierasz. Pancerz dodaje się do noszonej zbroi.</p>"
         },
         "max": {
           "value": "t"
@@ -178,7 +178,7 @@
           "page": 30,
           "pl": "Pancerne ciało",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -189,7 +189,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Poświęć pełną akcję i wykonaj <strong>Challenging (+0) Leadership Test</strong>. Po sukcesie podlegli ci Undead w promieniu <strong>12 jardów</strong> otrzymują <strong>+1 Advantage na poziom daru</strong> do następnego testu przeciwstawnego.</p>"
+          "value": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; każde użycie wymaga pełnej akcji i Leadership Test.</p><p>Poświęć pełną akcję i wykonaj <strong>Challenging (+0) Leadership Test</strong>. Po sukcesie podlegli ci Undead w promieniu <strong>12 jardów</strong> otrzymują <strong>+1 Advantage na poziom daru</strong> do następnego testu przeciwstawnego.</p>"
         },
         "max": {
           "value": "fel"
@@ -231,7 +231,7 @@
           "page": 30,
           "pl": "Przynęta",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -242,7 +242,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Pełna akcja przemienia cię w Vampire Bat; ubranie i wyposażenie znikają w ciele i wracają po przemianie. Powrót również wymaga pełnej akcji. Drugi poziom zmienia obie przemiany w akcje darmowe. Użyj profilu z bestiariusza i zasad przemian.</p>"
+          "value": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; pełna akcja na przemianę lub powrót, a od drugiego poziomu darmowa akcja.</p><p>Pełna akcja przemienia cię w Vampire Bat; ubranie i wyposażenie znikają w ciele i wracają po przemianie. Powrót również wymaga pełnej akcji. Drugi poziom zmienia obie przemiany w akcje darmowe. Użyj profilu z bestiariusza i zasad przemian.</p>"
         },
         "max": {
           "value": "2"
@@ -284,7 +284,7 @@
           "page": 30,
           "pl": "Postać nietoperza",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -295,7 +295,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Możesz rozmawiać ze zwierzętami, wydawać szczegółowe polecenia i otrzymywać odpowiedzi. Prostota wypowiedzi zależy od ich inteligencji. Premia talentu dotyczy Leadership zwierzętami.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Możesz rozmawiać ze zwierzętami, wydawać szczegółowe polecenia i otrzymywać odpowiedzi. Prostota wypowiedzi zależy od ich inteligencji. Premia talentu dotyczy Leadership zwierzętami.</p>"
         },
         "max": {
           "value": "wp"
@@ -339,7 +339,7 @@
           "page": 31,
           "pl": "Szept do bestii",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -350,7 +350,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Otrzymujesz cechę Belligerent.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Belligerent. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Otrzymujesz cechę Belligerent.</p>"
         },
         "max": {
           "value": "1"
@@ -370,7 +370,7 @@
           "page": 31,
           "pl": "Wojowniczość",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -381,7 +381,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Raz w turze, darmową akcją przed rzutem wybranego przeciwnika, traktujesz jego Advantage jako 0 przez tę rundę. Nie liczy się on do przewagi liczebnej. Premia talentu dotyczy przeciwstawnych testów Melee.</p>"
+          "value": "<p><strong>Użycie:</strong> Raz w swojej turze, przeciw jednemu wybranemu przeciwnikowi, jako darmowa akcja przed jego rzutem.</p><p>Raz w turze, darmową akcją przed rzutem wybranego przeciwnika, traktujesz jego Advantage jako 0 przez tę rundę. Nie liczy się on do przewagi liczebnej. Premia talentu dotyczy przeciwstawnych testów Melee.</p>"
         },
         "max": {
           "value": "1"
@@ -446,7 +446,7 @@
           "page": 31,
           "pl": "Mistrz ostrza",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -457,7 +457,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Wróg, który zada ci co najmniej 1 Ranę, musi zdać Challenging (+0) test Dodge. Porażka daje mu -20 do przeciwstawnych testów walki przez następne dwie rundy. Limit: Toughness Bonus.</p>"
+          "value": "<p><strong>Użycie:</strong> Za każdym razem, gdy przeciwnik zada ci co najmniej 1 Wound.</p><p>Wróg, który zada ci co najmniej 1 Ranę, musi zdać Challenging (+0) test Dodge. Porażka daje mu -20 do przeciwstawnych testów walki przez następne dwie rundy. Maksymalna liczba poziomów daru: Toughness Bonus.</p>"
         },
         "max": {
           "value": "t"
@@ -499,7 +499,7 @@
           "page": 31,
           "pl": "Tryskająca krew",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -510,7 +510,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Odstęp do pierwszego testu głodu jest dwukrotnie dłuższy. Później testujesz Cool co drugi interwał karmienia. Premia talentu dotyczy Cool przy powstrzymywaniu się od picia krwi.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Odstęp do pierwszego testu głodu jest dwukrotnie dłuższy. Później testujesz Cool co drugi interwał karmienia. Premia talentu dotyczy Cool przy powstrzymywaniu się od picia krwi.</p>"
         },
         "max": {
           "value": "1"
@@ -554,7 +554,7 @@
           "page": 31,
           "pl": "Nasycony krwią",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -565,7 +565,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Otrzymujesz cechę Fury.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Fury. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Otrzymujesz cechę Fury.</p>"
         },
         "max": {
           "value": "1"
@@ -585,7 +585,7 @@
           "page": 31,
           "pl": "Krwawa furia",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -596,7 +596,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Otrzymujesz cechę Chill Grasp.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Chill Grasp. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Otrzymujesz cechę Chill Grasp.</p>"
         },
         "max": {
           "value": "1"
@@ -616,7 +616,7 @@
           "page": 31,
           "pl": "Mroźna obecność",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -627,7 +627,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Otrzymujesz cechę Cold Blooded.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Cold Blooded. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Otrzymujesz cechę Cold Blooded.</p>"
         },
         "max": {
           "value": "1"
@@ -647,7 +647,7 @@
           "page": 31,
           "pl": "Zimnokrwisty",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -658,7 +658,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Otrzymujesz cechę Corrosive Blood.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Corrosive Blood. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Otrzymujesz cechę Corrosive Blood.</p>"
         },
         "max": {
           "value": "1"
@@ -678,7 +678,7 @@
           "page": 31,
           "pl": "Żrąca krew",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -689,7 +689,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Wyglądasz tak pięknie lub niewinnie, że aby cię skrzywdzić, przeciwnik musi wygrać przeciwstawny test swojego Cool przeciw twojej Charm.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Wyglądasz tak pięknie lub niewinnie, że aby cię skrzywdzić, przeciwnik musi wygrać przeciwstawny test swojego Cool przeciw twojej Charm.</p>"
         },
         "max": {
           "value": "1"
@@ -731,7 +731,7 @@
           "page": 31,
           "pl": "Skażona niewinność",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -742,7 +742,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Przy próbach rozproszenia twoich zaklęć Lore of Necromancy traktuje się ich wynik jako wyższy o 3 SL.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Przy próbach rozproszenia twoich zaklęć Lore of Necromancy traktuje się ich wynik jako wyższy o 3 SL.</p>"
         },
         "max": {
           "value": "1"
@@ -762,7 +762,7 @@
           "page": 32,
           "pl": "Mroczny akolita",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -773,7 +773,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Każdy poziom zapewnia 1 Dark Fate i 1 Dark Fortune. Wydajesz je jak Fate i Fortune. Dark Fortune odnawia się na początku sesji; Dark Fate odzyskujesz wyłącznie przy kolejnym zakupie daru.</p>"
+          "value": "<p><strong>Użycie:</strong> Liczba użyć zależy od posiadanych Dark Fate i Dark Fortune. Dark Fortune odnawia się jak Fortune; Dark Fate uzupełniasz przez kolejny zakup daru.</p><p>Każdy poziom zapewnia 1 Dark Fate i 1 Dark Fortune. Wydajesz je jak Fate i Fortune. Dark Fortune odnawia się na początku sesji; Dark Fate odzyskujesz wyłącznie przy kolejnym zakupie daru.</p>"
         },
         "max": {
           "value": "wp"
@@ -793,7 +793,7 @@
           "page": 32,
           "pl": "Mroczny los",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -804,7 +804,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Możesz telepatycznie dowodzić liczbą Undead równą Willpower +30 w odległości do 100 jardów. Premia talentu dotyczy Leadership podczas dowodzenia Undead.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Możesz telepatycznie dowodzić liczbą Undead równą Willpower +30 w odległości do 100 jardów. Premia talentu dotyczy Leadership podczas dowodzenia Undead.</p>"
         },
         "max": {
           "value": "1"
@@ -848,7 +848,7 @@
           "page": 32,
           "pl": "Mroczny majestat",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -859,7 +859,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Podlegli ci Undead w promieniu <strong>12 jardów</strong> ignorują <strong>Unstable</strong>.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Podlegli ci Undead w promieniu <strong>12 jardów</strong> ignorują <strong>Unstable</strong>.</p>"
         },
         "max": {
           "value": "1"
@@ -901,7 +901,7 @@
           "page": 32,
           "pl": "Niezniszczalne sługi",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -912,7 +912,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Wydaj całą Advantage, minimum 1. Przez jedną pełną rundę ignorujesz posiadane stany i dodajesz do obrażeń Melee <strong>sumę ich poziomów</strong>. Stan bez poziomów liczy się jako 1.</p>"
+          "value": "<p><strong>Użycie:</strong> Raz na walkę.</p><p>Wydaj całą Advantage, minimum 1. Przez jedną pełną rundę ignorujesz posiadane stany i dodajesz do obrażeń Melee <strong>sumę ich poziomów</strong>. Stan bez poziomów liczy się jako 1.</p>"
         },
         "max": {
           "value": "1"
@@ -954,7 +954,7 @@
           "page": 30,
           "pl": "Niespożyty wigor",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -965,7 +965,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Zawsze widzisz i wyczuwasz duchy; one również są świadome twojej obecności. Premia talentu dotyczy Charm i Leadership podczas porozumiewania się z duchami.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Zawsze widzisz i wyczuwasz duchy; one również są świadome twojej obecności. Premia talentu dotyczy Charm i Leadership podczas porozumiewania się z duchami.</p>"
         },
         "max": {
           "value": "1"
@@ -1009,7 +1009,7 @@
           "page": 32,
           "pl": "Wzrok umarłych",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1020,7 +1020,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Challenging (+0) Endurance Test pozwala czasowo znosić światło dnia. Powtarzaj test co godzinę z narastającym modyfikatorem −10. Po porażce Sunlight działa normalnie. Dar wyklucza Silvered Blood i Unhallowed Soul.</p>"
+          "value": "<p><strong>Użycie:</strong> Jeden test na godzinę, z narastającą karą −10 za kolejne testy.</p><p>Challenging (+0) Endurance Test pozwala czasowo znosić światło dnia. Powtarzaj test co godzinę z narastającym modyfikatorem −10. Po porażce Sunlight działa normalnie. Dar wyklucza Silvered Blood i Unhallowed Soul.</p>"
         },
         "max": {
           "value": "1"
@@ -1062,7 +1062,7 @@
           "page": 32,
           "pl": "Wbrew świtowi",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1073,7 +1073,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Otrzymujesz cechę Ghostly Howl.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Ghostly Howl. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Otrzymujesz cechę Ghostly Howl.</p>"
         },
         "max": {
           "value": "1"
@@ -1093,7 +1093,7 @@
           "page": 32,
           "pl": "Diabelski krzyk",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1104,7 +1104,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Jesteś nosicielem wybranej choroby i otrzymujesz cechę Disease. Najczęstszy wybór to Scurvy Madness, ale MG może dopuścić inny. Nie możesz posiadać tego daru razem z talentem Resistance (Disease).</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Disease. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Jesteś nosicielem wybranej choroby i otrzymujesz cechę Disease. Najczęstszy wybór to Scurvy Madness, ale MG może dopuścić inny. Nie możesz posiadać tego daru razem z talentem Resistance (Disease).</p>"
         },
         "max": {
           "value": "1"
@@ -1124,7 +1124,7 @@
           "page": 32,
           "pl": "Nosiciel choroby (rodzaj)",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1135,7 +1135,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Wykonaj przeciwstawny Cool Test. Po zwycięstwie wydaj celowi polecenie. Otrzymuje on <strong>Compulsion o poziomie równym uzyskanym SL</strong>. Testy niesłużące wykonaniu tego polecenia mają <strong>−10 za poziom</strong>. Wykonanie rozkazu kończy Compulsion, daje 1 Fatigued i przywraca 1 Resolve. Niewykonany rozkaz wygasa po godzinie, dając Fatigued w liczbie jego poziomów.</p>"
+          "value": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć na rundę, walkę lub dzień; każda próba wymaga Opposed Cool Test.</p><p>Wykonaj przeciwstawny Cool Test. Po zwycięstwie wydaj celowi polecenie. Otrzymuje on <strong>Compulsion o poziomie równym uzyskanym SL</strong>. Testy niesłużące wykonaniu tego polecenia mają <strong>−10 za poziom</strong>. Wykonanie rozkazu kończy Compulsion, daje 1 Fatigued i przywraca 1 Resolve. Niewykonany rozkaz wygasa po godzinie, dając Fatigued w liczbie jego poziomów.</p><p>Polecenie musi być mniej szkodliwe niż pozostawanie <strong>Surprised</strong> przez liczbę tur równą uzyskanym SL. Jeżeli nie jest, cel może wybrać Surprised zamiast Compulsion.</p>"
         },
         "max": {
           "value": "1"
@@ -1177,7 +1177,7 @@
           "page": 32,
           "pl": "Dominacja",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1188,7 +1188,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Raz dziennie pełną akcją zamieniasz siebie i wyposażenie w mgłę. Zyskujesz Ethereal, poruszasz się z normalną Movement i nie można cię rozproszyć zwykłymi środkami. Powrót wymaga pełnej akcji.</p>"
+          "value": "<p><strong>Użycie:</strong> Raz dziennie; przyjęcie postaci mgły i powrót wymagają pełnej akcji.</p><p>Raz dziennie pełną akcją zamieniasz siebie i wyposażenie w mgłę. Zyskujesz Ethereal, poruszasz się z normalną Movement i nie można cię rozproszyć zwykłymi środkami. Powrót wymaga pełnej akcji.</p>"
         },
         "max": {
           "value": "1"
@@ -1230,7 +1230,7 @@
           "page": 33,
           "pl": "Eteryczna mgła",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1241,7 +1241,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Pełną akcją przyjmujesz postać zwierzęcia nie większego od psa. Wyposażenie przemienia się wraz z tobą. Zachowujesz Initiative, Intelligence, Willpower, Fellowship i Wounds. Powrót również wymaga pełnej akcji. Drugi poziom pozwala przemieniać się darmową akcją.</p>"
+          "value": "<p><strong>Użycie:</strong> Dowolnie często; pełna akcja na przemianę lub powrót, a od drugiego poziomu darmowa akcja.</p><p>Pełną akcją przyjmujesz postać zwierzęcia nie większego od psa. Wyposażenie przemienia się wraz z tobą. Zachowujesz Initiative, Intelligence, Willpower, Fellowship i Wounds. Powrót również wymaga pełnej akcji. Drugi poziom pozwala przemieniać się darmową akcją.</p>"
         },
         "max": {
           "value": "2"
@@ -1283,7 +1283,7 @@
           "page": 33,
           "pl": "Postać chowańca",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1294,7 +1294,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Przeciw niemagicznemu ogniowi odejmujesz od Damage dodatkowo Toughness Bonus. Przy słabości Fire zastępuje to zwykłą redukcję; bez niej Toughness Bonus liczy się podwójnie. Nie chroni przed skutkami Running Water ani Religious Symbols.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Przeciw niemagicznemu ogniowi odejmujesz od Damage dodatkowo Toughness Bonus. Przy słabości Fire zastępuje to zwykłą redukcję; bez niej Toughness Bonus liczy się podwójnie. Nie chroni przed skutkami Running Water ani Religious Symbols.</p>"
         },
         "max": {
           "value": "1"
@@ -1336,7 +1336,7 @@
           "page": 33,
           "pl": "Ognioodporny",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1347,7 +1347,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Każda udana szarża otrzymuje Damaging. Jeżeli broń już ma Damaging, dodaj +1 Damage za każde pełne +2 SL ataku.</p>"
+          "value": "<p><strong>Użycie:</strong> Przy każdej udanej szarży.</p><p>Każda udana szarża otrzymuje Damaging. Jeżeli broń już ma Damaging, dodaj +1 Damage za każde pełne +2 SL ataku.</p>"
         },
         "max": {
           "value": "1"
@@ -1389,7 +1389,7 @@
           "page": 33,
           "pl": "Wściekła szarża",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1400,7 +1400,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Pełna akcja: na Willpower Bonus minut wybierz piękno (+10 Fellowship), odrazę (+10 Intimidate) albo zmianę rysów (+10 Entertain (Acting)). Drugi poziom: po godzinie obserwacji i udanej Intuition (+0) naśladujesz konkretną osobę. Bliscy mogą przeciwstawić Intuition twojemu Entertain (Acting); ich zwycięstwo budzi podejrzenia i daje ci -10 do testów Fellowship wobec nich, a +6 SL ujawnia oszustwo.</p>"
+          "value": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; zmiana wyglądu wymaga pełnej akcji. Naśladowanie konkretnej osoby wymaga godziny obserwacji.</p><p>Pełna akcja: na Willpower Bonus minut wybierz piękno (+10 Fellowship), odrazę (+10 Intimidate) albo zmianę rysów (+10 Entertain (Acting)). Drugi poziom: po godzinie obserwacji i udanej Intuition (+0) naśladujesz konkretną osobę. Bliscy mogą przeciwstawić Intuition twojemu Entertain (Acting); ich zwycięstwo budzi podejrzenia i daje ci -10 do testów Fellowship wobec nich, a +6 SL ujawnia oszustwo.</p>"
         },
         "max": {
           "value": "2"
@@ -1442,7 +1442,7 @@
           "page": 33,
           "pl": "Urok pozorów",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1453,7 +1453,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Pełna akcja: ty i słyszący cię sojusznicy zyskujecie +1 Advantage. Pierwsze zadęcie w danej walce daje wam ponadto +1 do Fear.</p>"
+          "value": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; każde zadęcie wymaga pełnej akcji. Premię do Fear otrzymujesz tylko przy pierwszym zadęciu w danej walce.</p><p>Pełna akcja: ty i słyszący cię sojusznicy zyskujecie +1 Advantage. Pierwsze zadęcie w danej walce daje wam ponadto +1 do Fear.</p>"
         },
         "max": {
           "value": "1"
@@ -1495,7 +1495,7 @@
           "page": 34,
           "pl": "Głos rogu",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1506,7 +1506,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Gdy pojedynczy atak zada ci co najmniej 2 Rany, z ciała wyłaniają się robaki. Świadkowie testują Cool (+0) przeciw Fear 3. Jeśli już wywołujesz Fear, zamiast tego zwiększa się on o 2 przez następną rundę.</p>"
+          "value": "<p><strong>Użycie:</strong> Za każdym razem, gdy pojedynczy atak zada ci co najmniej 2 Wounds.</p><p>Gdy pojedynczy atak zada ci co najmniej 2 Rany, z ciała wyłaniają się robaki. Świadkowie testują Cool (+0) przeciw Fear 3. Jeśli już wywołujesz Fear, zamiast tego zwiększa się on o 2 przez następną rundę.</p>"
         },
         "max": {
           "value": "1"
@@ -1548,7 +1548,7 @@
           "page": 34,
           "pl": "Żywy rój",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1559,7 +1559,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Ignorujesz po 1 poziomie Fatigued za każdy poziom tego daru.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Ignorujesz po 1 poziomie Fatigued za każdy poziom tego daru.</p>"
         },
         "max": {
           "value": "t"
@@ -1603,7 +1603,7 @@
           "page": 34,
           "pl": "Niezmordowany",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1614,7 +1614,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Każdy poziom zwiększa <strong>Size o jeden stopień</strong>, maksymalnie o trzy. Drugi poziom wymaga Count, trzeci Lord. MG może dopuścić ich zakup na podstawie Age 3 i Age 4. Podczas Pass for Human Size wynosi Medium.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Każdy poziom zwiększa <strong>Size o jeden stopień</strong>, maksymalnie o trzy. Drugi poziom wymaga Count, trzeci Lord. MG może dopuścić ich zakup na podstawie Age 3 i Age 4. Podczas Pass for Human Size wynosi Medium.</p>"
         },
         "max": {
           "value": "3"
@@ -1656,7 +1656,7 @@
           "page": 34,
           "pl": "Żelazne ścięgna",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1667,7 +1667,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Wybierz Physical Mutation lub uzgodnij własną deformację z MG. Jest objawem wampiryzmu, nie Chaosu: nie daje punktów Corruption i nie wykrywa się jako piętno Chaosu.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Wybierz Physical Mutation lub uzgodnij własną deformację z MG. Jest objawem wampiryzmu, nie Chaosu: nie daje punktów Corruption i nie wykrywa się jako piętno Chaosu.</p>"
         },
         "max": {
           "value": "t"
@@ -1709,7 +1709,7 @@
           "page": 34,
           "pl": "Zdeformowany",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1720,7 +1720,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Przyjęcie formalnego wyzwania daje +1 Advantage i +1 Resolve. Odmowa prawdziwego wyzwania kosztuje 1 Resolve. Premia talentu dotyczy Cool przy przestrzeganiu kodeksu.</p>"
+          "value": "<p><strong>Użycie:</strong> Przy przyjęciu lub odrzuceniu formalnego wyzwania.</p><p>Przyjęcie formalnego wyzwania daje +1 Advantage i +1 Resolve. Odmowa prawdziwego wyzwania kosztuje 1 Resolve. Premia talentu dotyczy Cool przy przestrzeganiu kodeksu.</p>"
         },
         "max": {
           "value": "fel"
@@ -1785,7 +1785,7 @@
           "page": 34,
           "pl": "Wojenny honor",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1796,7 +1796,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Otrzymujesz +2 SL do Language (Magick), gdy ożywiasz zmarłych lub z nimi rozmawiasz.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Otrzymujesz +2 SL do Language (Magick), gdy ożywiasz zmarłych lub z nimi rozmawiasz.</p>"
         },
         "max": {
           "value": "1"
@@ -1840,7 +1840,7 @@
           "page": 34,
           "pl": "Władza nad śmiercią",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1851,7 +1851,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Przeciwstaw Intimidate Cool celu. Zwycięstwo daje mu 1 Fatigued i dodatkowe 1 za każde +2 SL. Przy +6 SL zamiast tego otrzymuje 1 Broken.</p>"
+          "value": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; każda próba wymaga Opposed Intimidate/Cool Test.</p><p>Przeciwstaw Intimidate Cool celu. Zwycięstwo daje mu 1 Fatigued i dodatkowe 1 za każde +2 SL. Przy +6 SL zamiast tego otrzymuje 1 Broken.</p>"
         },
         "max": {
           "value": "1"
@@ -1893,7 +1893,7 @@
           "page": 34,
           "pl": "Łupieżca umysłu",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1904,7 +1904,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Po zabiciu wroga jego sojusznicy w odległości Willpower Bonus jardów muszą zdać Cool (+0) albo otrzymać Broken.</p>"
+          "value": "<p><strong>Użycie:</strong> Po każdym zabiciu przeciwnika.</p><p>Po zabiciu wroga jego sojusznicy w odległości Willpower Bonus jardów muszą zdać Cool (+0) albo otrzymać Broken.</p>"
         },
         "max": {
           "value": "1"
@@ -1946,7 +1946,7 @@
           "page": 34,
           "pl": "Potworna chwała",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1957,7 +1957,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Przeciwnik losuje każdą zadaną ci Critical Wound dwukrotnie i wybiera niższy wynik. Od Age 4 możesz kupić drugi poziom, otrzymując Painless.</p>"
+          "value": "<p><strong>Użycie:</strong> Przy każdej Critical Wound zadanej tobie.</p><p>Przeciwnik losuje każdą zadaną ci Critical Wound dwukrotnie i wybiera niższy wynik. Od Age 4 możesz kupić drugi poziom, otrzymując Painless.</p>"
         },
         "max": {
           "value": "2"
@@ -1977,7 +1977,7 @@
           "page": 35,
           "pl": "Potworna masa",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -1988,7 +1988,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Kontrolujesz własnych Undead i Ghouls zgodnie z zasadami Dhar. Jeśli posiadasz Arcane Magic (Necromancy), udany dublet przy rzucaniu zaklęcia wykorzystującego Dhar nie powoduje dodatkowego Miscast.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Kontrolujesz własnych Undead i Ghouls zgodnie z zasadami Dhar. Jeśli posiadasz Arcane Magic (Necromancy), udany dublet przy rzucaniu zaklęcia wykorzystującego Dhar nie powoduje dodatkowego Miscast.</p>"
         },
         "max": {
           "value": "1"
@@ -2008,7 +2008,7 @@
           "page": 35,
           "pl": "Urodzony nekromanta",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2019,7 +2019,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Posiadasz zwój z jednym wybranym zaklęciem z <strong>Lore of Death lub Lore of Necromancy</strong>. Możesz korzystać z tego niezapamiętanego zaklęcia, dopóki masz zwój. Każdy kolejny zakup daru dotyczy innego zaklęcia.</p>"
+          "value": "<p><strong>Użycie:</strong> Zwój nie zużywa się po rzuceniu zaklęcia. Kolejne rzuty podlegają zasadom zaklęcia i korzystania z grymuarów.</p><p>Posiadasz zwój z jednym wybranym zaklęciem z <strong>Lore of Death lub Lore of Necromancy</strong>. Możesz korzystać z tego niezapamiętanego zaklęcia, dopóki masz zwój. Każdy kolejny zakup daru dotyczy innego zaklęcia.</p>"
         },
         "max": {
           "value": "1"
@@ -2061,7 +2061,7 @@
           "page": 35,
           "pl": "Nehekharański zwój (zaklęcie)",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2072,7 +2072,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Do listy Skills każdej profesji dodaj Language (Magick) oraz Channelling (Dhar). Jeśli dana Skill już tam występuje, jej rozwinięcia kosztują o 5 XP mniej.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Do listy Skills każdej profesji dodaj Language (Magick) oraz Channelling (Dhar). Jeśli dana Skill już tam występuje, jej rozwinięcia kosztują o 5 XP mniej.</p>"
         },
         "max": {
           "value": "1"
@@ -2114,7 +2114,7 @@
           "page": 35,
           "pl": "Nocna wiedźma",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2125,7 +2125,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Zasięg wpływu na Undead wynosi 200 jardów, plus 100 za każdy kolejny zakup.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Zasięg wpływu na Undead wynosi 200 jardów, plus 100 za każdy kolejny zakup.</p>"
         },
         "max": {
           "value": "fel"
@@ -2145,7 +2145,7 @@
           "page": 35,
           "pl": "Szlachetne pochodzenie",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2156,7 +2156,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Możesz odżywiać się martwym mięsem i krwią, a także robactwem oraz owadami. Pozwala to powstrzymać głód bez żerowania na żywych.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Możesz odżywiać się martwym mięsem i krwią, a także robactwem oraz owadami. Pozwala to powstrzymać głód bez żerowania na żywych.</p>"
         },
         "max": {
           "value": "1"
@@ -2198,7 +2198,7 @@
           "page": 35,
           "pl": "Pasożyt",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2209,7 +2209,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Darmową akcją dowolnie często przybierasz ludzką powierzchowność. Kły, pazury i deformacje znikają, a Fear i Terror przestają działać, dopóki nie wrócisz do prawdziwej postaci.</p>"
+          "value": "<p><strong>Użycie:</strong> Dowolnie często, jako darmowa akcja.</p><p>Darmową akcją dowolnie często przybierasz ludzką powierzchowność. Kły, pazury i deformacje znikają, a Fear i Terror przestają działać, dopóki nie wrócisz do prawdziwej postaci.</p>"
         },
         "max": {
           "value": "1"
@@ -2251,7 +2251,7 @@
           "page": 35,
           "pl": "Udawanie człowieka",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2262,7 +2262,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Posiadasz odbicie i cień; dar przeciwdziała słabości No Reflection.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Posiadasz odbicie i cień; dar przeciwdziała słabości No Reflection.</p>"
         },
         "max": {
           "value": "1"
@@ -2282,7 +2282,7 @@
           "page": 35,
           "pl": "Trwałe odbicie",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2293,7 +2293,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Gdy zadasz Critical Wound, możesz rzucić dwa razy i wybrać wyższy wynik.</p>"
+          "value": "<p><strong>Użycie:</strong> Przy każdej Critical Wound zadanej przeciwnikowi.</p><p>Gdy zadasz Critical Wound, możesz rzucić dwa razy i wybrać wyższy wynik.</p>"
         },
         "max": {
           "value": "1"
@@ -2313,7 +2313,7 @@
           "page": 35,
           "pl": "Przeszywający cios",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2324,7 +2324,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Atakując z cienia, możesz użyć Stealth zamiast Melee we wszystkich testach przeciwstawnych.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Atakując z cienia, możesz użyć Stealth zamiast Melee we wszystkich testach przeciwstawnych.</p>"
         },
         "max": {
           "value": "1"
@@ -2368,7 +2368,7 @@
           "page": 35,
           "pl": "Nocny drapieżnik",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2379,7 +2379,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Raz na rundę darmową akcją wykonaj jeden test Cool przeciw wszystkim żywym celom w promieniu 8 jardów. Każdy cel testuje osobno. Od przegranego zabierasz 1 Ranę i kolejną za każde +2 SL przewagi nad nim.</p>"
+          "value": "<p><strong>Użycie:</strong> Raz na rundę, jako darmowa akcja.</p><p>Raz na rundę darmową akcją wykonaj jeden test Cool przeciw wszystkim żywym celom w promieniu 8 jardów. Każdy cel testuje osobno. Od przegranego zabierasz 1 Ranę i kolejną za każde +2 SL przewagi nad nim.</p>"
         },
         "max": {
           "value": "1"
@@ -2421,7 +2421,7 @@
           "page": 36,
           "pl": "Psychiczne wyssanie",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2432,7 +2432,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Możesz unikać pocisków testem Dodge, także gdy normalnie nie można ich uniknąć. Premia talentu dotyczy takich testów.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Możesz unikać pocisków testem Dodge, także gdy normalnie nie można ich uniknąć. Premia talentu dotyczy takich testów.</p>"
         },
         "max": {
           "value": "ag"
@@ -2476,7 +2476,7 @@
           "page": 36,
           "pl": "Szybka krew",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2487,7 +2487,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Twoja broń używana w Melee otrzymuje Fast.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Twoja broń używana w Melee otrzymuje Fast.</p>"
         },
         "max": {
           "value": "1"
@@ -2507,7 +2507,7 @@
           "page": 36,
           "pl": "Żywe srebro",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2518,7 +2518,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Możesz wejść w Frenzy, gdy widzisz lub czujesz świeżą krew w odległości 16 jardów na poziom daru.</p>"
+          "value": "<p><strong>Użycie:</strong> Gdy widzisz lub wyczuwasz świeżą krew w zasięgu daru, możesz wejść w Frenzy.</p><p>Możesz wejść w Frenzy, gdy widzisz lub czujesz świeżą krew w odległości 16 jardów na poziom daru.</p>"
         },
         "max": {
           "value": "i"
@@ -2560,7 +2560,7 @@
           "page": 36,
           "pl": "Wygłodniała bestia",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2571,7 +2571,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Po osiągnięciu 0 Ran możesz natychmiast wykonać test Endurance. Sukces przywraca 1 Ranę i przytomność.</p>"
+          "value": "<p><strong>Użycie:</strong> Gdy osiągniesz 0 Wounds, możesz natychmiast wykonać Endurance Test.</p><p>Po osiągnięciu 0 Ran możesz natychmiast wykonać test Endurance. Sukces przywraca 1 Ranę i przytomność.</p>"
         },
         "max": {
           "value": "1"
@@ -2613,7 +2613,7 @@
           "page": 36,
           "pl": "Powracający",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2624,7 +2624,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Sprzymierzeni Undead w promieniu <strong>Willpower Bonus jardów</strong> otrzymują <strong>Ward (9+)</strong> przeciw niemagicznym obrażeniom. Każdy kolejny poziom poprawia Ward o 1.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Sprzymierzeni Undead w promieniu <strong>Willpower Bonus jardów</strong> otrzymują <strong>Ward (9+)</strong> przeciw niemagicznym obrażeniom. Każdy kolejny poziom poprawia Ward o 1.</p>"
         },
         "max": {
           "value": "3"
@@ -2666,7 +2666,7 @@
           "page": 36,
           "pl": "Władca nocy",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2677,7 +2677,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Wykrywasz żywe istoty w promieniu 16 jardów. Zwykłe ukrycie i wizualna niewidzialność nie wystarczają. Magia ukrywająca życie lub zapach może uniemożliwić wykrycie celu.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Wykrywasz żywe istoty w promieniu 16 jardów. Zwykłe ukrycie i wizualna niewidzialność nie wystarczają. Magia ukrywająca życie lub zapach może uniemożliwić wykrycie celu.</p>"
         },
         "max": {
           "value": "1"
@@ -2719,7 +2719,7 @@
           "page": 36,
           "pl": "Woń krwi",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2730,7 +2730,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Silver nie powoduje dodatkowych obrażeń ani bólu przy dotyku. Dar wyklucza Defy the Dawn.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Silver nie powoduje dodatkowych obrażeń ani bólu przy dotyku. Dar wyklucza Defy the Dawn.</p>"
         },
         "max": {
           "value": "1"
@@ -2750,7 +2750,7 @@
           "page": 36,
           "pl": "Posrebrzona krew",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2761,7 +2761,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Ataki Bite i Claw otrzymują Infected.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Ataki Bite i Claw otrzymują Infected.</p>"
         },
         "max": {
           "value": "1"
@@ -2781,7 +2781,7 @@
           "page": 36,
           "pl": "Powolna śmierć",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2792,7 +2792,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Woń rozkładu zapewnia ci cechę Distracting.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Woń rozkładu zapewnia ci cechę Distracting.</p>"
         },
         "max": {
           "value": "1"
@@ -2812,7 +2812,7 @@
           "page": 36,
           "pl": "Odór",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2823,7 +2823,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Przy udanym rzuceniu Raise the Dead, Reanimate, Spell of Awakening lub Summon Mount otrzymujesz +2 SL na poziom daru. Mogą posłużyć do Overcasting zgodnie z zasadami zaklęcia.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Przy udanym rzuceniu Raise the Dead, Reanimate, Spell of Awakening lub Summon Mount otrzymujesz +2 SL na poziom daru. Mogą posłużyć do Overcasting zgodnie z zasadami zaklęcia.</p>"
         },
         "max": {
           "value": "wp"
@@ -2865,7 +2865,7 @@
           "page": 36,
           "pl": "Przywołanie pradawnych",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2876,7 +2876,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Challenging (+0) Leadership Test przywołuje liczbę Ghouls równą SL z zasięgu słuchu. Przybywają po liczbie rund równej połowie cyfry jedności rzutu, zaokrąglonej w górę, minimum 1. Działają w twojej turze i słuchają poleceń przez Willpower Bonus godzin.</p>"
+          "value": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; każda próba wymaga Leadership Test i odpowiednich istot w okolicy.</p><p>Challenging (+0) Leadership Test przywołuje liczbę Ghouls równą SL z zasięgu słuchu. Przybywają po liczbie rund równej połowie cyfry jedności rzutu, zaokrąglonej w górę, minimum 1. Działają w twojej turze i słuchają poleceń przez Willpower Bonus godzin.</p>"
         },
         "max": {
           "value": "1"
@@ -2918,7 +2918,7 @@
           "page": 37,
           "pl": "Przywołanie ghuli",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2929,7 +2929,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Challenging (+0) Leadership Test natychmiast przywołuje rój Giant Rats, Giant Spiders lub Giant Snakes. Wybrany profil otrzymuje Swarm oraz +1 Wound za każde pełne +2 SL. Rój działa w twojej turze przez Willpower Bonus rund, po czym rozprasza się.</p>"
+          "value": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; każda próba wymaga Leadership Test i odpowiednich istot w okolicy.</p><p>Challenging (+0) Leadership Test natychmiast przywołuje rój Giant Rats, Giant Spiders lub Giant Snakes. Wybrany profil otrzymuje Swarm oraz +1 Wound za każde pełne +2 SL. Rój działa w twojej turze przez Willpower Bonus rund, po czym rozprasza się.</p>"
         },
         "max": {
           "value": "1"
@@ -2971,7 +2971,7 @@
           "page": 37,
           "pl": "Przywołanie robactwa",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -2982,7 +2982,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Challenging (+0) Leadership Test przywołuje liczbę Wolves równą SL albo połowę tej liczby Dire Wolves. Przybywają po połowie cyfry jedności rzutu, zaokrąglonej w górę, minimum 1. Działają w twojej turze i słuchają poleceń przez Willpower Bonus godzin.</p>"
+          "value": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; każda próba wymaga Leadership Test i odpowiednich istot w okolicy.</p><p>Challenging (+0) Leadership Test przywołuje liczbę Wolves równą SL albo połowę tej liczby Dire Wolves. Przybywają po połowie cyfry jedności rzutu, zaokrąglonej w górę, minimum 1. Działają w twojej turze i słuchają poleceń przez Willpower Bonus godzin.</p>"
         },
         "max": {
           "value": "1"
@@ -3024,7 +3024,7 @@
           "page": 37,
           "pl": "Przywołanie wilków",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3035,7 +3035,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Przywołujesz burzę o promieniu <strong>1 mili (1760 jardów)</strong>, trwającą <strong>Willpower Bonus godzin</strong>. W jej obszarze testy ataków Ranged i Perception mają <strong>−10</strong>, lot jest niemożliwy, a chmury osłaniają przed Sunlight. Twoja śmierć kończy burzę.</p>"
+          "value": "<p><strong>Użycie:</strong> Raz dziennie; wymaga pełnej akcji.</p><p>Przywołujesz burzę o promieniu <strong>1 mili (1760 jardów)</strong>, trwającą <strong>Willpower Bonus godzin</strong>. W jej obszarze testy ataków Ranged i Perception mają <strong>−10</strong>, lot jest niemożliwy, a chmury osłaniają przed Sunlight. Twoja śmierć kończy burzę.</p>"
         },
         "max": {
           "value": "1"
@@ -3077,7 +3077,7 @@
           "page": 37,
           "pl": "Przywołanie burzy",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3088,7 +3088,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Raz dziennie pełną akcją stajesz się wybranym rojem na Willpower Bonus minut; ekwipunek przemienia się razem z tobą. Nie atakujesz i nie możesz zostać zraniony, choć ataki są nieprzyjemne. Przechodzisz przez szczeliny dostępne pojedynczej istocie roju. Drugi poziom pozwala przemienić się darmową akcją przed końcem twojej tury, nawet wcześniej w kolejności inicjatywy. Inny rodzaj roju kupujesz osobno.</p>"
+          "value": "<p><strong>Użycie:</strong> Raz dziennie. Drugi poziom skraca przemianę do darmowej akcji, ale nie zwiększa liczby użyć.</p><p>Raz dziennie pełną akcją stajesz się wybranym rojem na Willpower Bonus minut; ekwipunek przemienia się razem z tobą. Nie atakujesz i nie możesz zostać zraniony, choć ataki są nieprzyjemne. Przechodzisz przez szczeliny dostępne pojedynczej istocie roju. Drugi poziom pozwala przemienić się darmową akcją przed końcem twojej tury, nawet wcześniej w kolejności inicjatywy. Inny rodzaj roju kupujesz osobno.</p>"
         },
         "max": {
           "value": "2"
@@ -3130,7 +3130,7 @@
           "page": 37,
           "pl": "Postać roju (rodzaj)",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3141,7 +3141,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Minimalne Rany zadawane w Melee po redukcji przez Armour Points i Toughness Bonus rosną o 1 za każdy poziom.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Minimalne Rany zadawane w Melee po redukcji przez Armour Points i Toughness Bonus rosną o 1 za każdy poziom.</p>"
         },
         "max": {
           "value": "s"
@@ -3183,7 +3183,7 @@
           "page": 37,
           "pl": "Straszliwe ciosy",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3194,7 +3194,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Zyskujesz atak językiem o obrażeniach Strength Bonus+1 i zasięgu Ballistic Skill Bonus jardów. Każdy kolejny zakup dodaje 1 do obrażeń i zasięgu.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Tongue Attack. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Zyskujesz atak językiem o obrażeniach Strength Bonus+1 i zasięgu Ballistic Skill Bonus jardów. Każdy kolejny zakup dodaje 1 do obrażeń i zasięgu.</p>"
         },
         "max": {
           "value": "s"
@@ -3214,7 +3214,7 @@
           "page": 37,
           "pl": "Atak językiem",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3225,7 +3225,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Przeciw atakom z Pummelling odejmujesz od Damage dodatkowo swój Toughness Bonus. Ta dodatkowa redukcja działa także wtedy, gdy atak ignoruje zwykłą redukcję za Toughness Bonus.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Przeciw atakom z Pummelling odejmujesz od Damage dodatkowo swój Toughness Bonus. Ta dodatkowa redukcja działa także wtedy, gdy atak ignoruje zwykłą redukcję za Toughness Bonus.</p>"
         },
         "max": {
           "value": "1"
@@ -3267,7 +3267,7 @@
           "page": 38,
           "pl": "Twarda skóra",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3278,7 +3278,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Pełną akcją przeciwstaw Charm testowi Cool widocznego celu. Zwycięstwo sprawia, że cel jest Helpless przez następną rundę. Możesz podtrzymywać moc, lecz ofiara raz na turę ponawia próbę uwolnienia się.</p>"
+          "value": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; rozpoczęcie wymaga pełnej akcji i Opposed Charm/Cool Test. Przy podtrzymywaniu celu przysługuje jedna próba uwolnienia się na turę.</p><p>Pełną akcją przeciwstaw Charm testowi Cool widocznego celu. Zwycięstwo sprawia, że cel jest Helpless przez następną rundę. Możesz podtrzymywać moc, lecz ofiara raz na turę ponawia próbę uwolnienia się.</p>"
         },
         "max": {
           "value": "1"
@@ -3298,7 +3298,7 @@
           "page": 38,
           "pl": "Zniewalające spojrzenie",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3309,7 +3309,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Otrzymujesz cechę Die Hard.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Die Hard. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Otrzymujesz cechę Die Hard.</p>"
         },
         "max": {
           "value": "1"
@@ -3329,7 +3329,7 @@
           "page": 38,
           "pl": "Nieumierający",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3340,7 +3340,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Religious Symbols i święte miejsca nie powstrzymują cię. Słabość Blessed Weapons nadal działa. Nie łącz z Defy the Dawn.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Religious Symbols i święte miejsca nie powstrzymują cię. Słabość Blessed Weapons nadal działa. Nie łącz z Defy the Dawn.</p>"
         },
         "max": {
           "value": "1"
@@ -3360,7 +3360,7 @@
           "page": 38,
           "pl": "Nieświęta dusza",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3371,7 +3371,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Otrzymujesz cechę Regenerate.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Regenerate. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Otrzymujesz cechę Regenerate.</p>"
         },
         "max": {
           "value": "1"
@@ -3391,7 +3391,7 @@
           "page": 38,
           "pl": "Nieświęta regeneracja",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3402,7 +3402,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Nie tracisz Advantage tylko dlatego, że jesteś otoczony liczniejszymi przeciwnikami. Oni nadal otrzymują zwykłe modyfikatory do trafienia.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Nie tracisz Advantage tylko dlatego, że jesteś otoczony liczniejszymi przeciwnikami. Oni nadal otrzymują zwykłe modyfikatory do trafienia.</p>"
         },
         "max": {
           "value": "1"
@@ -3422,7 +3422,7 @@
           "page": 38,
           "pl": "Błędny rycerz",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3433,7 +3433,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Jeśli dosiadasz wierzchowca z cechą Stride, wykonujesz jedną darmową akcję Run przed wszystkimi. Zachowujesz swoją zwykłą turę.</p>"
+          "value": "<p><strong>Użycie:</strong> Jedna darmowa Run Action przed działaniami pozostałych uczestników walki, jeśli wierzchowiec ma Stride.</p><p>Jeśli dosiadasz wierzchowca z cechą Stride, wykonujesz jedną darmową akcję Run przed wszystkimi. Zachowujesz swoją zwykłą turę.</p>"
         },
         "max": {
           "value": "1"
@@ -3453,7 +3453,7 @@
           "page": 38,
           "pl": "Straż przednia",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3464,7 +3464,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Zyskujesz Venom (Challenging). Każdy następny zakup utrudnia test oporu o jeden stopień.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Venom. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Zyskujesz Venom (Challenging). Każdy następny zakup utrudnia test oporu o jeden stopień.</p>"
         },
         "max": {
           "value": "3"
@@ -3484,7 +3484,7 @@
           "page": 38,
           "pl": "Jadowita żółć",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3495,7 +3495,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Otrzymujesz cechę Vomit.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Vomit. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Otrzymujesz cechę Vomit.</p>"
         },
         "max": {
           "value": "1"
@@ -3515,7 +3515,7 @@
           "page": 38,
           "pl": "Wymioty",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3526,7 +3526,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Zyskujesz Hoverer; możesz unosić się do 2 jardów nad ziemią, z normalną Movement. Woda i bariery, nad którymi przelecisz, nie wpływają na ciebie.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Hoverer. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Zyskujesz Hoverer; możesz unosić się do 2 jardów nad ziemią, z normalną Movement. Woda i bariery, nad którymi przelecisz, nie wpływają na ciebie.</p>"
         },
         "max": {
           "value": "1"
@@ -3568,7 +3568,7 @@
           "page": 38,
           "pl": "Kroczący jak wiatr",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3579,7 +3579,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Możesz wedle woli wywoływać Terror o wartości równej poziomowi daru.</p>"
+          "value": "<p><strong>Użycie:</strong> Włączasz działanie wedle woli; brak osobnego limitu użyć.</p><p>Możesz wedle woli wywoływać Terror o wartości równej poziomowi daru.</p>"
         },
         "max": {
           "value": "t"
@@ -3599,7 +3599,7 @@
           "page": 39,
           "pl": "Krocząca śmierć",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3610,7 +3610,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Otrzymujesz cechę Wallcrawler.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Wallcrawler. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Otrzymujesz cechę Wallcrawler.</p>"
         },
         "max": {
           "value": "1"
@@ -3630,7 +3630,7 @@
           "page": 39,
           "pl": "Pełzanie po ścianach",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3641,7 +3641,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Po udanym Cool (+0) przekraczasz, brodzisz lub płyniesz bez szkody przez wodę. Powtarzaj test przy nowym zbiorniku lub co 100 jardów. Drugi poziom usuwa konieczność testowania.</p>"
+          "value": "<p><strong>Użycie:</strong> Test przy każdym nowym zbiorniku lub po kolejnych 100 jardach. Od drugiego poziomu działa bez testu.</p><p>Po udanym Cool (+0) przekraczasz, brodzisz lub płyniesz bez szkody przez wodę. Powtarzaj test przy nowym zbiorniku lub co 100 jardów. Drugi poziom usuwa konieczność testowania.</p>"
         },
         "max": {
           "value": "2"
@@ -3683,7 +3683,7 @@
           "page": 39,
           "pl": "Władza nad wodą",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3694,7 +3694,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Ty i postacie w promieniu Willpower jardów otrzymujecie +1 SL na poziom daru do Language (Magick) podczas rzucania zaklęć wykorzystujących Dhar. Inne zaklęcia rzucane w aurze powodują Miscast przy dublecie, także z Aethyric Attunement. Premia kumuluje się z innymi źródłami Dhar.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Ty i postacie w promieniu Willpower jardów otrzymujecie +1 SL na poziom daru do Language (Magick) podczas rzucania zaklęć wykorzystujących Dhar. Inne zaklęcia rzucane w aurze powodują Miscast przy dublecie, także z Aethyric Attunement. Premia kumuluje się z innymi źródłami Dhar.</p>"
         },
         "max": {
           "value": "i"
@@ -3714,7 +3714,7 @@
           "page": 35,
           "pl": "Źródło Dhar",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3725,7 +3725,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Wyrastają ci skórzaste skrzydła. Zyskujesz Flight o wartości równej dwukrotnej Movement.</p>"
+          "value": "<p><strong>Użycie:</strong> Dar zapewnia Flight. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p><p>Wyrastają ci skórzaste skrzydła. Zyskujesz Flight o wartości równej dwukrotnej Movement.</p>"
         },
         "max": {
           "value": "1"
@@ -3745,7 +3745,7 @@
           "page": 39,
           "pl": "Skrzydła",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3756,7 +3756,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Pełna akcja przemienia cię w Doom Wolf; wyposażenie znika i wraca po przemianie. Powrót to też pełna akcja. Drugi poziom pozwala przemieniać się darmowo. Stosuj profil Doom Wolf i zasady przemian.</p>"
+          "value": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; pełna akcja na przemianę lub powrót, a od drugiego poziomu darmowa akcja.</p><p>Pełna akcja przemienia cię w Doom Wolf; wyposażenie znika i wraca po przemianie. Powrót to też pełna akcja. Drugi poziom pozwala przemieniać się darmowo. Stosuj profil Doom Wolf i zasady przemian.</p>"
         },
         "max": {
           "value": "2"
@@ -3798,7 +3798,7 @@
           "page": 39,
           "pl": "Postać wilka",
           "automation": "action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     },
@@ -3809,7 +3809,7 @@
       "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
       "system": {
         "description": {
-          "value": "<p>Critical Wounds zadają ci o 2 mniej dodatkowych Ran, minimum 1.</p>"
+          "value": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p><p>Critical Wounds zadają ci o 2 mniej dodatkowych Ran, minimum 1.</p>"
         },
         "max": {
           "value": "1"
@@ -3851,7 +3851,7 @@
           "page": 30,
           "pl": "Odporny na rany",
           "automation": "passive-and-action",
-          "revision": "2.3.2"
+          "revision": "2.3.6"
         }
       }
     }
@@ -9921,7 +9921,7 @@
       "_id": "b05d8942e7722c1b",
       "name": "Crypt Horror",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/CryptGhoul.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -11035,7 +11035,7 @@
       "prototypeToken": {
         "name": "Kryptowy koszmar",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/CryptGhoul.png"
         },
         "actorLink": false
       },
@@ -11050,7 +11050,7 @@
       "_id": "5d023e53f2b51e94",
       "name": "Hexwraith",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Hexwraith.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -11791,7 +11791,7 @@
       "prototypeToken": {
         "name": "Upiorny żniwiarz",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Hexwraith.png"
         },
         "actorLink": false
       },
@@ -11806,7 +11806,7 @@
       "_id": "1acf9a66986d3b06",
       "name": "Patchwork Men",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/PatchworkMen.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -12261,13 +12261,80 @@
             "WSH1M9OwikGRQD2R": 3
           },
           "sort": 1800000
+        },
+        {
+          "name": "Painless",
+          "type": "trait",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "effects": [],
+          "flags": {
+            "core": {}
+          },
+          "system": {
+            "description": {
+              "type": "String",
+              "label": "Description",
+              "value": "<p>The creature feels no pain or can ignore it. All non-amputation penalties suffered from Critical Wounds are ignored, although Conditions are suffered as normal.</p>"
+            },
+            "gmdescription": {
+              "type": "String",
+              "label": "Description",
+              "value": ""
+            },
+            "rollable": {
+              "value": false,
+              "damage": false,
+              "skill": "",
+              "label": "Rollable",
+              "type": "Boolean",
+              "rollCharacteristic": "",
+              "bonusCharacteristic": "",
+              "dice": "",
+              "defaultDifficulty": "challenging",
+              "SL": true,
+              "attackType": "melee"
+            },
+            "specification": {
+              "value": "",
+              "type": "String",
+              "label": "Specification"
+            },
+            "qualities": {
+              "label": "Qualities",
+              "value": []
+            },
+            "flaws": {
+              "label": "Flaws",
+              "value": []
+            },
+            "category": "standard",
+            "disabled": false
+          },
+          "_stats": {
+            "compendiumSource": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.5.2",
+            "createdTime": 1791478744411,
+            "modifiedTime": 1791478744411,
+            "lastModifiedBy": "jWIQ1XDN9g4PUe3a"
+          },
+          "_id": "QiEH3drsuI74h7cd",
+          "folder": null,
+          "ownership": {
+            "default": 0,
+            "WSH1M9OwikGRQD2R": 3
+          },
+          "sort": 7600000
         }
       ],
       "effects": [],
       "prototypeToken": {
         "name": "Zszywaniec",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/PatchworkMen.png"
         },
         "actorLink": false
       },
@@ -12282,7 +12349,7 @@
       "_id": "1c61f5ff400164b2",
       "name": "Simulacrum",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Simulacrum.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -12831,7 +12898,7 @@
       "prototypeToken": {
         "name": "Symulakrum",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Simulacrum.png"
         },
         "actorLink": false
       },
@@ -12846,7 +12913,7 @@
       "_id": "f29ea85e9bdcfa05",
       "name": "Spirit Host",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/SpiritHost.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -13011,7 +13078,8 @@
             "flaws": {
               "label": "Flaws",
               "value": []
-            }
+            },
+            "disabled": false
           },
           "_stats": {
             "compendiumSource": "Compendium.wfrp4e-core.items.Item.j6v78dnOOdCB6c3d"
@@ -14003,7 +14071,7 @@
       "prototypeToken": {
         "name": "Horda duchów",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/SpiritHost.png"
         },
         "actorLink": false
       },
@@ -14018,7 +14086,7 @@
       "_id": "4778c2bf18d7b510",
       "name": "Swain",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Swain.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -14494,13 +14562,82 @@
             "WSH1M9OwikGRQD2R": 3
           },
           "sort": 1800000
+        },
+        {
+          "_id": "Rw1wKxhfBj4m38ib",
+          "name": "Melee (Two-Handed)",
+          "type": "skill",
+          "img": "modules/wfrp4e-core/icons/skills/basic-skill-ws.png",
+          "effects": [],
+          "folder": "dc53RquVINsYS6cm",
+          "sort": 0,
+          "flags": {
+            "_sheetTab": {}
+          },
+          "system": {
+            "description": {
+              "type": "String",
+              "label": "Description",
+              "value": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.mk4p8y3RetTuMe2f caption=false]{Melee}"
+            },
+            "gmdescription": {
+              "type": "String",
+              "label": "Description",
+              "value": ""
+            },
+            "advanced": {
+              "value": "bsc",
+              "type": "String"
+            },
+            "grouped": {
+              "value": "isSpec",
+              "type": "String"
+            },
+            "characteristic": {
+              "type": "String",
+              "label": "Characteristic",
+              "value": "ws"
+            },
+            "advances": {
+              "type": "Number",
+              "label": "Advances",
+              "value": 10,
+              "costModifier": 0,
+              "force": false
+            },
+            "modifier": {
+              "type": "Number",
+              "label": "Advances",
+              "value": 0
+            },
+            "total": {
+              "type": "Number",
+              "label": "Total"
+            }
+          },
+          "ownership": {
+            "default": 0,
+            "sAiwDCZFd21tgaDN": 3,
+            "fZcBsIeJU41NJzuO": 3
+          },
+          "_stats": {
+            "compendiumSource": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.5.2",
+            "createdTime": 1791471745706,
+            "modifiedTime": 1791471745706,
+            "lastModifiedBy": "fZcBsIeJU41NJzuO"
+          }
         }
       ],
       "effects": [],
       "prototypeToken": {
         "name": "Zauroczony sługus",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Swain.png"
         },
         "actorLink": false
       },
@@ -14515,7 +14652,7 @@
       "_id": "313f5777875efbfe",
       "name": "Sylvanian Levy",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/SylvanianLevy.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -15054,7 +15191,7 @@
       "prototypeToken": {
         "name": "Sylvańskie pospolite ruszenie",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/SylvanianLevy.png"
         },
         "actorLink": false
       },
@@ -15069,7 +15206,7 @@
       "_id": "698fda40e55dbf25",
       "name": "Vargheists",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Vargheist.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -16356,7 +16493,7 @@
       "prototypeToken": {
         "name": "Vargheist",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Vargheist.png"
         },
         "actorLink": false
       },
@@ -16371,7 +16508,7 @@
       "_id": "a5d016e5d266e65e",
       "name": "Wight",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Wight.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -17119,7 +17256,7 @@
       "prototypeToken": {
         "name": "Upiór",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Wight.png"
         },
         "actorLink": false
       },
@@ -17134,7 +17271,7 @@
       "_id": "8f0eaedab5522570",
       "name": "Abyssal Terrors",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/AbyssalTerror.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -18298,7 +18435,7 @@
       "prototypeToken": {
         "name": "Otchłanny koszmar",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/AbyssalTerror.png"
         },
         "actorLink": false
       },
@@ -18313,7 +18450,7 @@
       "_id": "896835314e149169",
       "name": "Nightmares",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Nightmares.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -19478,7 +19615,7 @@
       "prototypeToken": {
         "name": "Koszmar",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Nightmares.png"
         },
         "actorLink": false
       },
@@ -19493,7 +19630,7 @@
       "_id": "7395bab751467675",
       "name": "Spectral Steeds",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/SpectralSteeds.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -20650,7 +20787,7 @@
       "prototypeToken": {
         "name": "Widmowy rumak",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/SpectralSteeds.png"
         },
         "actorLink": false
       },
@@ -20665,7 +20802,7 @@
       "_id": "c56d86960c19893b",
       "name": "Terrorgheists",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Terrorgheist.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -22044,7 +22181,7 @@
       "prototypeToken": {
         "name": "Terrorgheist",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Terrorgheist.png"
         },
         "actorLink": false
       },
@@ -22059,7 +22196,7 @@
       "_id": "d1833b5c1f8f0031",
       "name": "Zombie Dragon",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/ZombieDragon.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -23779,7 +23916,7 @@
       "prototypeToken": {
         "name": "Smok zombie",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/ZombieDragon.png"
         },
         "actorLink": false
       },
@@ -23794,7 +23931,7 @@
       "_id": "d09bb4b80ffeb0f2",
       "name": "Doom Wolf",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/DoomWolf.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -25091,7 +25228,7 @@
       "prototypeToken": {
         "name": "Wilk zagłady",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/DoomWolf.png"
         },
         "actorLink": false
       },
@@ -25106,7 +25243,7 @@
       "_id": "16890655a46155b2",
       "name": "Dracoleech",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Dracoleech.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -26122,7 +26259,7 @@
       "prototypeToken": {
         "name": "Smocza pijawka",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Dracoleech.png"
         },
         "actorLink": false
       },
@@ -26137,7 +26274,7 @@
       "_id": "96c4e380b45bf8a3",
       "name": "Vampire Bat",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/VampireBat.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -27112,7 +27249,7 @@
       "prototypeToken": {
         "name": "Wampirzy nietoperz",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/VampireBat.png"
         },
         "actorLink": false
       },
@@ -27127,7 +27264,7 @@
       "_id": "8f95b7d0cc91c2c4",
       "name": "Vampire Familiar",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/VampireFamiliar.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -27670,7 +27807,7 @@
       "prototypeToken": {
         "name": "Wampirzy chowaniec",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/VampireFamiliar.png"
         },
         "actorLink": false
       },
@@ -27685,7 +27822,7 @@
       "_id": "efa6ef92627eca96",
       "name": "Hellsteed",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Hellsteed.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -28879,23 +29016,102 @@
             {
               "_id": "e4a046bb28d41c3a",
               "name": "Corrosive Blood",
-              "img": "modules/wfrp4e-complete-counts-pl/assets/blood.svg",
+              "img": "modules/wfrp4e-core/icons/traits/trait.png",
               "type": "base",
               "transfer": true,
               "system": {
                 "transferData": {
                   "type": "document",
-                  "documentType": "Item"
+                  "documentType": "Actor",
+                  "avoidTest": {
+                    "value": "none",
+                    "opposed": false,
+                    "prevention": true,
+                    "reversed": false
+                  },
+                  "equipTransfer": false,
+                  "prompt": false,
+                  "area": {
+                    "aura": {
+                      "transferred": false,
+                      "render": false
+                    },
+                    "templateData": {
+                      "borderColor": null,
+                      "fillColor": null,
+                      "texture": null
+                    },
+                    "keep": false,
+                    "duration": "sustained"
+                  },
+                  "originalType": "document",
+                  "testIndependent": false,
+                  "selfOnly": false,
+                  "zone": {
+                    "type": "zone",
+                    "transferred": false,
+                    "traits": {},
+                    "skipImmediateOnPlacement": false,
+                    "keep": false
+                  }
                 },
                 "scriptData": [
                   {
                     "label": "Corrosive Blood",
-                    "trigger": "manual",
-                    "script": "return game.modules.get(\"wfrp4e-complete-counts-pl\").api.activate(this.item, args);",
-                    "options": {}
+                    "trigger": "takeDamage",
+                    "script": "[Script.QwHoqu2oO8QO8Mad]",
+                    "options": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false,
+                      "deleteEffect": false,
+                      "defending": false,
+                      "runIfDisabled": false,
+                      "showDuplicates": false
+                    },
+                    "async": false
                   }
-                ]
-              }
+                ],
+                "zone": {
+                  "type": "zone",
+                  "traits": {},
+                  "skipImmediateOnPlacement": false
+                },
+                "sourceData": {
+                  "test": {}
+                },
+                "itemTargetData": {
+                  "ids": [],
+                  "allItems": false
+                },
+                "condition": {
+                  "numbered": false
+                }
+              },
+              "_stats": {
+                "coreVersion": "13.351",
+                "systemId": null,
+                "systemVersion": null,
+                "createdTime": null,
+                "modifiedTime": null,
+                "lastModifiedBy": null,
+                "compendiumSource": null,
+                "duplicateSource": null,
+                "exportSource": null
+              },
+              "changes": [],
+              "disabled": false,
+              "duration": {
+                "startTime": null,
+                "combat": null
+              },
+              "description": "",
+              "origin": null,
+              "tint": "#ffffff",
+              "statuses": [],
+              "sort": 0,
+              "flags": {}
             }
           ],
           "flags": {
@@ -28910,7 +29126,9 @@
           },
           "system": {
             "description": {
-              "value": "<p><strong>Żrąca krew</strong></p><p>Zyskujesz cechę Corrosive Blood (Żrąca krew).</p><p><small>Complete Counts, Adam Lowe, s. 31. Przekład roboczy PL.</small></p><details><summary>Tekst źródłowy EN</summary><p>You gain the Corrosive Blood Trait.</p></details>"
+              "type": "String",
+              "label": "Description",
+              "value": "<p>The creature&rsquo;s blood is corrosive. Every time its is Wounded, blood splashes free, and all targets Engaged with it take [[/r 1d10]] Wounds modified by Toughness Bonus and Armour Points, to a minimum of 1.</p>"
             },
             "gmdescription": {
               "type": "String",
@@ -28931,7 +29149,9 @@
               "attackType": "melee"
             },
             "specification": {
-              "value": ""
+              "value": "",
+              "type": "String",
+              "label": "Specification"
             },
             "qualities": {
               "label": "Qualities",
@@ -28940,10 +29160,18 @@
             "flaws": {
               "label": "Flaws",
               "value": []
-            }
+            },
+            "category": "standard",
+            "disabled": false
           },
           "_stats": {
-            "compendiumSource": "Compendium.wfrp4e-core.items.Item.M5QSWOYt2Rbv2yxW"
+            "compendiumSource": "Compendium.wfrp4e-core.items.Item.M5QSWOYt2Rbv2yxW",
+            "coreVersion": "13.351",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.5.2",
+            "lastModifiedBy": null,
+            "duplicateSource": null,
+            "exportSource": null
           },
           "_id": "347c8af956169a7e",
           "folder": null,
@@ -29700,7 +29928,7 @@
       "prototypeToken": {
         "name": "Piekielny rumak",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/Hellsteed.png"
         },
         "actorLink": false
       },
@@ -29715,7 +29943,7 @@
       "_id": "4e47389504cc21f5",
       "name": "Skeletal Steed",
       "type": "creature",
-      "img": "modules/wfrp4e-complete-counts-pl/assets/beast.svg",
+      "img": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/SkeletalSteed.png",
       "system": {
         "characteristics": {
           "ws": {
@@ -30853,7 +31081,7 @@
       "prototypeToken": {
         "name": "Kościsty rumak",
         "texture": {
-          "src": "modules/wfrp4e-complete-counts-pl/assets/beast.svg"
+          "src": "modules/wfrp4e-complete-counts-pl/assets/Bestiary/SkeletalSteed.png"
         },
         "actorLink": false
       },
@@ -32648,7 +32876,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<div class=\"cc-journal\"><p>Dar krwi jest talentem dostępnym wyłącznie wampirom. Kolejne poziomy kosztują 100, 200, 300… PD. Zakup spoza bieżącej profesji kosztuje dwukrotnie więcej. Wampir zaczyna z trzema darami. Dalsze dary są ograniczone liczbą zwykłych Talents, bez Blood Gifts i Weaknesses; każdy poziom preferowanej profesji ponad pierwszy zwiększa limit darów.</p><p>Opcjonalnie GM może wymagać co najmniej czterech aktywnych Weaknesses. Dary nie pozwalają usunąć ani obejść Undead i Vampiric. Defy the Dawn wyklucza Silvered Blood i Unhallowed Soul. Resistance (Disease) wyklucza Diseased (Type). Drugi poziom Monstrous Mass wymaga Age 4.</p><p>Wampir nie uczy się Pray, Bless, Holy Hatred, Holy Visions, Invoke ani Pure Soul. Przy przemianie stosuj zamiany: Pray → Channelling (Dhar); Lore (Theology) → Language (Magick); Bless → Petty Magic; Invoke → Arcane Magic (Necromancy); Holy Hatred → Hatred (Cultists); Holy Visions → Sixth Sense; Pure Soul → Strong-minded; Etiquette (Cultists) → Cat-tongued; Savant (Theology) → Savant (Necromancy).</p><p>Warianty profesji zachowują zwykłe cechy, umiejętności, talenty, status i wyposażenie profesji podstawowej. Na poszczególnych poziomach otrzymują dodatkowe listy dostępnych darów krwi.</p></div>"
+            "content": "<h3><span>Dary krwi</span></h3><p><span><strong>Blood Gifts</strong> to talenty dostępne wyłącznie wampirom. Pierwszy poziom daru kosztuje <strong>100 PD</strong>, drugi <strong>200 PD</strong>, trzeci <strong>300 PD</strong> itd. Jeśli dar nie znajduje się na liście bieżącego poziomu profesji, jego zakup kosztuje dwa razy więcej.</span></p><p><span>Każdy wampir zaczyna z <strong>trzema darami krwi</strong>. Przy dalszym rozwoju limit darów odpowiada łącznej liczbie posiadanych poziomów zwykłych <strong>Talents</strong>, w tym talentów rodu krwi i talentów nabytych w profesji. <strong>Blood Gifts</strong> i <strong>Weaknesses</strong> nie zwiększają limitu. Każdy poziom daru, również startowego, zajmuje jedno miejsce w limicie.</span></p><p><span>Jeśli wampir rozwija <strong>Preferred Career</strong> swojego rodu, każdy osiągnięty poziom tej profesji po pierwszym zwiększa limit o <strong>1</strong>. Limit wynosi co najmniej <strong>3</strong>.</span></p><p><span><em>Przykład.</em> Wampir ma pięć talentów rodu i jeden talent profesji, wszystkie na poziomie 1. Jego podstawowy limit wynosi <strong>6</strong>, więc poza trzema darami startowymi może dokupić jeszcze trzy poziomy darów. Na drugim poziomie <strong>Preferred Career</strong> jego limit wzrośnie do <strong>7</strong>.</span></p><p><span>MG może wprowadzić dodatkową zasadę, zgodnie z którą wampir musi zachować co najmniej <strong>cztery aktywne Weaknesses</strong>. Dary krwi nie pozwalają usunąć ani obejść cech <strong>Undead</strong> i <strong>Vampiric</strong>.</span></p><ul><li><p><span><strong>Defy the Dawn</strong> wyklucza <strong>Silvered Blood</strong> i <strong>Unhallowed Soul</strong>.</span></p></li><li><p><span><strong>Resistance (Disease)</strong> wyklucza <strong>Diseased (Type)</strong>.</span></p></li><li><p><span>Drugi poziom <strong>Monstrous Mass</strong> wymaga <strong>Age 4</strong>.</span></p></li></ul><h3><span>Talenty i umiejętności po przemianie</span></h3><p><span>Wampir nie może uczyć się <strong>Pray, Bless, Holy Hatred, Holy Visions, Invoke</strong> ani <strong>Pure Soul</strong>. Przy przemianie postaci zastosuj poniższe zamiany.</span></p><table><tbody><tr><th><p><span>Przed przemianą</span></p></th><th><p><span>Po przemianie</span></p></th></tr><tr><td><p><span>Pray</span></p></td><td><p><span>Channelling (Dhar)</span></p></td></tr><tr><td><p><span>Lore (Theology)</span></p></td><td><p><span>Language (Magick)</span></p></td></tr><tr><td><p><span>Bless</span></p></td><td><p><span>Petty Magic</span></p></td></tr><tr><td><p><span>Invoke</span></p></td><td><p><span>Arcane Magic (Necromancy)</span></p></td></tr><tr><td><p><span>Holy Hatred</span></p></td><td><p><span>Hatred (Cultists)</span></p></td></tr><tr><td><p><span>Holy Visions</span></p></td><td><p><span>Sixth Sense</span></p></td></tr><tr><td><p><span>Pure Soul</span></p></td><td><p><span>Strong-minded</span></p></td></tr><tr><td><p><span>Etiquette (Cultists)</span></p></td><td><p><span>Cat-tongued</span></p></td></tr><tr><td><p><span>Savant (Theology)</span></p></td><td><p><span>Savant (Necromancy)</span></p></td></tr></tbody></table><h3><span>Warianty profesji</span></h3><p><span>Wampirzy wariant zachowuje cechy, umiejętności, talenty, status i wyposażenie profesji podstawowej. Każdy poziom wariantu ma dodatkową listę darów krwi dostępnych do zakupu na tym poziomie.</span></p>"
           },
           "sort": 900000,
           "ownership": {
@@ -32694,7 +32922,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<div class=\"cc-journal\"><p>Każdy poziom daje <strong>−10</strong> do testów sprzecznych z poleceniem. Zapisz polecenie, jego źródło, uzyskane SL i termin wygaśnięcia. Wykonanie zadania usuwa Compulsion, daje jeden Fatigued i przywraca jeden Resolve. Po godzinie niewykonane polecenie wygasa, dając Fatigued za każdy poziom. Czas i zakończenie rozlicza się ręcznie.</p><p>Polecenie samobójcze lub skrajnie szkodliwe umożliwia dodatkowy opór albo negatywną konsekwencję zamiast wykonania; decyzję podejmuje GM z graczem. Domination nie oznacza trwałego przejęcia postaci. Gracz nadal podejmuje decyzje i przesuwa token.</p></div>"
+            "content": "<div class=\"cc-journal\"><p>Każdy poziom daje <strong>−10</strong> do testów sprzecznych z poleceniem. Zapisz polecenie, jego źródło, uzyskane SL i termin wygaśnięcia. Wykonanie zadania usuwa Compulsion, daje jeden Fatigued i przywraca jeden Resolve. Po godzinie niewykonane polecenie wygasa, dając Fatigued za każdy poziom. Czas i zakończenie rozlicza się ręcznie.</p><p>Polecenie musi być <strong>mniej szkodliwe niż pozostawanie Surprised przez liczbę tur równą uzyskanym SL</strong>. Jeżeli ten warunek nie jest spełniony, cel może wybrać <strong>Surprised na tę liczbę tur zamiast Compulsion</strong>.</p><p>Domination nie oznacza trwałego przejęcia postaci. Gracz nadal podejmuje decyzje i przesuwa token.</p></div>"
           },
           "sort": 1100000,
           "ownership": {
@@ -32740,7 +32968,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<div class=\"cc-journal\"><h2>Hungry</h2><p>Każdy poziom daje <strong>−10</strong> do Willpower i Fellowship oraz zachowanie cechy Hungry. Resolve nie usuwa tego stanu. Pięć poziomów Hungry powoduje Ravenous. Karmienie usuwa Hungry po odzyskaniu Ran.</p><h2>Ravenous</h2><p>Ravenous daje korzyści i ograniczenia Frenzy oraz kieruje agresję przeciw najbliższej odpowiedniej żywej ofierze. Cel wskazują gracz i GM. Atakuj możliwe ofiary i pij do ich śmierci, aż usuniesz wszystkie stany głodu. Ravenous jest usuwany jako ostatni.</p><h3>Frenzy</h3><p>Otrzymujesz <strong>+1</strong> do Strength Bonus. Raz w rundzie możesz wykonać dodatkowy Melee Test jako akcję darmową. Jesteś odporny na pozostałą Psychologię; nie uciekasz ani nie wycofujesz się. Zbliżasz się do celu, aby zaatakować. Ravenous kieruje tę agresję także przeciw żywym sojusznikom.</p><h2>Compulsion</h2><p>Każdy poziom daje <strong>−10</strong> do testów niesłużących wykonaniu polecenia. Wykonanie zadania usuwa Compulsion, daje jeden Fatigued i przywraca jeden Resolve. Po godzinie niewykonane polecenie wygasa, powodując po jednym Fatigued za każdy poziom Compulsion.</p><h2>Sun-Poisoned</h2><p>Sunlight może powodować Sun-Poisoned. Po obrażeniach od słońca wykonaj Challenging (+0) Endurance Test; porażka daje Ablaze. Każde pełne <strong>10 minut</strong> schronienia usuwa jeden poziom Sun-Poisoned.</p></div>"
+            "content": "<div class=\"cc-journal\"><h2>Hungry</h2><p>Każdy poziom daje <strong>−10</strong> do Willpower i Fellowship oraz zachowanie cechy Hungry. Resolve nie usuwa tego stanu. Pięć poziomów Hungry powoduje Ravenous. Karmienie usuwa Hungry po odzyskaniu Ran.</p><h2>Ravenous</h2><p>Ravenous daje korzyści i ograniczenia Frenzy oraz kieruje agresję przeciw najbliższej odpowiedniej żywej ofierze. Cel wskazują gracz i GM. Atakuj możliwe ofiary i pij do ich śmierci, aż usuniesz wszystkie stany głodu. Ravenous jest usuwany jako ostatni.</p><h3>Frenzy</h3><p>Otrzymujesz <strong>+1</strong> do Strength Bonus. Raz w rundzie możesz wykonać dodatkowy Melee Test jako akcję darmową. Jesteś odporny na pozostałą Psychologię; nie uciekasz ani nie wycofujesz się. Zbliżasz się do celu, aby zaatakować. Ravenous kieruje tę agresję także przeciw żywym sojusznikom.</p><h2>Compulsion</h2><p>Każdy poziom daje <strong>−10</strong> do testów niesłużących wykonaniu polecenia. Wykonanie zadania usuwa Compulsion, daje jeden Fatigued i przywraca jeden Resolve. Po godzinie niewykonane polecenie wygasa, powodując po jednym Fatigued za każdy poziom Compulsion.</p><p>Polecenie musi być <strong>mniej szkodliwe niż pozostawanie Surprised przez liczbę tur równą uzyskanym SL</strong>. Jeżeli ten warunek nie jest spełniony, cel może wybrać <strong>Surprised na tę liczbę tur zamiast Compulsion</strong>.</p><h2>Sun-Poisoned</h2><p>Sunlight może powodować Sun-Poisoned. Po obrażeniach od słońca wykonaj Challenging (+0) Endurance Test; porażka daje Ablaze. Każde pełne <strong>10 minut</strong> schronienia usuwa jeden poziom Sun-Poisoned.</p></div>"
           },
           "sort": 1300000,
           "ownership": {
@@ -48654,5 +48882,277 @@
         }
       }
     }
+  },
+  "giftUsage236": {
+    "Aethyric Cipher": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Ageless Cunning": {
+      "usage": "<p><strong>Użycie:</strong> W pierwszej rundzie każdej walki.</p>"
+    },
+    "Armoured Flesh": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Bait": {
+      "usage": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; każde użycie wymaga pełnej akcji i Leadership Test.</p>"
+    },
+    "Bat Form": {
+      "usage": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; pełna akcja na przemianę lub powrót, a od drugiego poziomu darmowa akcja.</p>"
+    },
+    "Beastly Whisper": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Belligerent": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Belligerent. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Blademaster": {
+      "usage": "<p><strong>Użycie:</strong> Raz w swojej turze, przeciw jednemu wybranemu przeciwnikowi, jako darmowa akcja przed jego rzutem.</p>"
+    },
+    "Blood Burst": {
+      "usage": "<p><strong>Użycie:</strong> Za każdym razem, gdy przeciwnik zada ci co najmniej 1 Wound.</p>"
+    },
+    "Blood-Sated": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Bloody Fury": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Fury. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Chill Presence": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Chill Grasp. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Cold-blooded": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Cold Blooded. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Corrosive Blood": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Corrosive Blood. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Corrupted Innocence": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Dark Acolyte": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Dark Fate": {
+      "usage": "<p><strong>Użycie:</strong> Liczba użyć zależy od posiadanych Dark Fate i Dark Fortune. Dark Fortune odnawia się jak Fortune; Dark Fate uzupełniasz przez kolejny zakup daru.</p>"
+    },
+    "Dark Majesty": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Deathless Minions": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Deathless Vigour": {
+      "usage": "<p><strong>Użycie:</strong> Raz na walkę.</p>"
+    },
+    "Deathsight": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Defy the Dawn": {
+      "usage": "<p><strong>Użycie:</strong> Jeden test na godzinę, z narastającą karą −10 za kolejne testy.</p>"
+    },
+    "Devil's Cry": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Ghostly Howl. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Diseased (Type)": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Disease. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Domination": {
+      "usage": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć na rundę, walkę lub dzień; każda próba wymaga Opposed Cool Test.</p>",
+      "rule": "<p>Polecenie musi być mniej szkodliwe niż pozostawanie <strong>Surprised</strong> przez liczbę tur równą uzyskanym SL. Jeżeli nie jest, cel może wybrać Surprised zamiast Compulsion.</p>"
+    },
+    "Ethereal Mist": {
+      "usage": "<p><strong>Użycie:</strong> Raz dziennie; przyjęcie postaci mgły i powrót wymagają pełnej akcji.</p>"
+    },
+    "Familiar Form": {
+      "usage": "<p><strong>Użycie:</strong> Dowolnie często; pełna akcja na przemianę lub powrót, a od drugiego poziomu darmowa akcja.</p>"
+    },
+    "Fire Retardant": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Furious Charge": {
+      "usage": "<p><strong>Użycie:</strong> Przy każdej udanej szarży.</p>"
+    },
+    "Glamour": {
+      "usage": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; zmiana wyglądu wymaga pełnej akcji. Naśladowanie konkretnej osoby wymaga godziny obserwacji.</p>"
+    },
+    "Hornblower": {
+      "usage": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; każde zadęcie wymaga pełnej akcji. Premię do Fear otrzymujesz tylko przy pierwszym zadęciu w danej walce.</p>"
+    },
+    "Host": {
+      "usage": "<p><strong>Użycie:</strong> Za każdym razem, gdy pojedynczy atak zada ci co najmniej 2 Wounds.</p>"
+    },
+    "Indefatigable": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Iron Sinews": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Malformed": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Martial Honour": {
+      "usage": "<p><strong>Użycie:</strong> Przy przyjęciu lub odrzuceniu formalnego wyzwania.</p>"
+    },
+    "Mastery over Death": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Mind Flayer": {
+      "usage": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; każda próba wymaga Opposed Intimidate/Cool Test.</p>"
+    },
+    "Monstrous Glory": {
+      "usage": "<p><strong>Użycie:</strong> Po każdym zabiciu przeciwnika.</p>"
+    },
+    "Monstrous Mass": {
+      "usage": "<p><strong>Użycie:</strong> Przy każdej Critical Wound zadanej tobie.</p>"
+    },
+    "Natural Necromancer": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Nehekharan Scroll (Spell)": {
+      "usage": "<p><strong>Użycie:</strong> Zwój nie zużywa się po rzuceniu zaklęcia. Kolejne rzuty podlegają zasadom zaklęcia i korzystania z grymuarów.</p>"
+    },
+    "Night Witch": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Noble Descent": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Parasite": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Pass for Human": {
+      "usage": "<p><strong>Użycie:</strong> Dowolnie często, jako darmowa akcja.</p>"
+    },
+    "Persistent Image": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Piercing Strike": {
+      "usage": "<p><strong>Użycie:</strong> Przy każdej Critical Wound zadanej przeciwnikowi.</p>"
+    },
+    "Predator of the Night": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Psychic Drain": {
+      "usage": "<p><strong>Użycie:</strong> Raz na rundę, jako darmowa akcja.</p>"
+    },
+    "Quickblood": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Quicksilver": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Ravening Beast": {
+      "usage": "<p><strong>Użycie:</strong> Gdy widzisz lub wyczuwasz świeżą krew w zasięgu daru, możesz wejść w Frenzy.</p>"
+    },
+    "Revenant": {
+      "usage": "<p><strong>Użycie:</strong> Gdy osiągniesz 0 Wounds, możesz natychmiast wykonać Endurance Test.</p>"
+    },
+    "Ruler of the Night": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Scent Blood": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Silvered Blood": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Slow Death": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Stench": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Summon Ancients": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Summon Ghouls": {
+      "usage": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; każda próba wymaga Leadership Test i odpowiednich istot w okolicy.</p>"
+    },
+    "Summon Vermin": {
+      "usage": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; każda próba wymaga Leadership Test i odpowiednich istot w okolicy.</p>"
+    },
+    "Summon Wolves": {
+      "usage": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; każda próba wymaga Leadership Test i odpowiednich istot w okolicy.</p>"
+    },
+    "Summon Storm": {
+      "usage": "<p><strong>Użycie:</strong> Raz dziennie; wymaga pełnej akcji.</p>"
+    },
+    "Swarm Form (Type)": {
+      "usage": "<p><strong>Użycie:</strong> Raz dziennie. Drugi poziom skraca przemianę do darmowej akcji, ale nie zwiększa liczby użyć.</p>"
+    },
+    "Terrible Blows": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Tongue Attack": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Tongue Attack. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Tough Hide": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Transfixing Gaze": {
+      "usage": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; rozpoczęcie wymaga pełnej akcji i Opposed Charm/Cool Test. Przy podtrzymywaniu celu przysługuje jedna próba uwolnienia się na turę.</p>"
+    },
+    "Undying": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Die Hard. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Unhallowed Soul": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Unholy Regeneration": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Regenerate. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Vagabond Knight": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Vanguard": {
+      "usage": "<p><strong>Użycie:</strong> Jedna darmowa Run Action przed działaniami pozostałych uczestników walki, jeśli wierzchowiec ma Stride.</p>"
+    },
+    "Venomous Bile": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Venom. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Vomit": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Vomit. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Walking as the Wind": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Hoverer. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Walking Death": {
+      "usage": "<p><strong>Użycie:</strong> Włączasz działanie wedle woli; brak osobnego limitu użyć.</p>"
+    },
+    "Wallcrawler": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Wallcrawler. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Waterwalker": {
+      "usage": "<p><strong>Użycie:</strong> Test przy każdym nowym zbiorniku lub po kolejnych 100 jardach. Od drugiego poziomu działa bez testu.</p>"
+    },
+    "Wellspring of Dhar": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    },
+    "Wings": {
+      "usage": "<p><strong>Użycie:</strong> Dar zapewnia Flight. Częstotliwość i warunki użycia wynikają z zasad tej cechy.</p>"
+    },
+    "Wolf Form": {
+      "usage": "<p><strong>Użycie:</strong> Brak osobnego limitu użyć; pełna akcja na przemianę lub powrót, a od drugiego poziomu darmowa akcja.</p>"
+    },
+    "Wound Resistant": {
+      "usage": "<p><strong>Działanie:</strong> Działa stale lub przy każdym spełnieniu warunków opisanych poniżej.</p>"
+    }
+  },
+  "compulsionJournal236": {
+    "39a89cb1b0646cdd": {
+      "before": "<p>Polecenie samobójcze lub skrajnie szkodliwe umożliwia dodatkowy opór albo negatywną konsekwencję zamiast wykonania; decyzję podejmuje GM z graczem. ",
+      "after": "<p>Polecenie musi być <strong>mniej szkodliwe niż pozostawanie Surprised przez liczbę tur równą uzyskanym SL</strong>. Jeżeli ten warunek nie jest spełniony, cel może wybrać <strong>Surprised na tę liczbę tur zamiast Compulsion</strong>.</p><p>"
+    },
+    "894ff171a41c5c49": {
+      "before": "</p><h2>Sun-Poisoned</h2>",
+      "after": "</p><p>Polecenie musi być <strong>mniej szkodliwe niż pozostawanie Surprised przez liczbę tur równą uzyskanym SL</strong>. Jeżeli ten warunek nie jest spełniony, cel może wybrać <strong>Surprised na tę liczbę tur zamiast Compulsion</strong>.</p><h2>Sun-Poisoned</h2>"
+    }
+  },
+  "bloodGiftJournal237": {
+    "pageId": "a4f2fa042f2291fc",
+    "baselines": [
+      "<div class=\"cc-journal\"><p>Dar krwi jest talentem dostępnym wyłącznie wampirom. Kolejne poziomy kosztują 100, 200, 300… PD. Zakup spoza bieżącej profesji kosztuje dwukrotnie więcej. Wampir zaczyna z trzema darami. Dalsze dary są ograniczone liczbą zwykłych Talents, bez Blood Gifts i Weaknesses; każdy poziom preferowanej profesji ponad pierwszy zwiększa limit darów.</p><p>Opcjonalnie GM może wymagać co najmniej czterech aktywnych Weaknesses. Dary nie pozwalają usunąć ani obejść Undead i Vampiric. Defy the Dawn wyklucza Silvered Blood i Unhallowed Soul. Resistance (Disease) wyklucza Diseased (Type). Drugi poziom Monstrous Mass wymaga Age 4.</p><p>Wampir nie uczy się Pray, Bless, Holy Hatred, Holy Visions, Invoke ani Pure Soul. Przy przemianie stosuj zamiany: Pray → Channelling (Dhar); Lore (Theology) → Language (Magick); Bless → Petty Magic; Invoke → Arcane Magic (Necromancy); Holy Hatred → Hatred (Cultists); Holy Visions → Sixth Sense; Pure Soul → Strong-minded; Etiquette (Cultists) → Cat-tongued; Savant (Theology) → Savant (Necromancy).</p><p>Warianty profesji zachowują zwykłe cechy, umiejętności, talenty, status i wyposażenie profesji podstawowej. Na poszczególnych poziomach otrzymują dodatkowe listy dostępnych darów krwi.</p></div>",
+      "<h3><span>Dary krwi</span></h3><p><span><strong>Blood Gifts</strong> to talenty dostępne wyłącznie wampirom. Pierwszy poziom daru kosztuje <strong>100 PD</strong>, drugi <strong>200 PD</strong>, trzeci <strong>300 PD</strong> itd. Jeśli dar nie znajduje się na liście bieżącego poziomu profesji, jego zakup kosztuje dwa razy więcej.</span></p><p><span>Każdy wampir zaczyna z <strong>trzema darami krwi</strong>. Przy dalszym rozwoju limit darów odpowiada liczbie rasowych <strong>Talents </strong>(5), w tym talentów rodu krwi i talentów nabytych w profesji. <strong>Blood Gifts</strong> i <strong>Weaknesses</strong> nie zwiększają limitu. Każdy poziom daru, również startowego, zajmuje jedno miejsce w limicie.</span></p><p><span>Jeśli wampir rozwija <strong>Preferred Career</strong> swojego rodu, każdy osiągnięty poziom tej profesji po pierwszym zwiększa limit o <strong>1</strong>. Limit wynosi co najmniej <strong>3</strong>.</span></p><p><span><em>Przykład.</em> Wampir ma pięć talentów rodu i jeden talent profesji, wszystkie na poziomie 1. Jego podstawowy limit wynosi <strong>6</strong>, więc poza trzema darami startowymi może dokupić jeszcze trzy poziomy darów. Na drugim poziomie <strong>Preferred Career</strong> jego limit wzrośnie do <strong>7</strong>.</span></p><p><span>MG może wprowadzić dodatkową zasadę, zgodnie z którą wampir musi zachować co najmniej <strong>cztery aktywne Weaknesses</strong>. Dary krwi nie pozwalają usunąć ani obejść cech <strong>Undead</strong> i <strong>Vampiric</strong>.</span></p><ul><li><p><span><strong>Defy the Dawn</strong> wyklucza <strong>Silvered Blood</strong> i <strong>Unhallowed Soul</strong>.</span></p></li><li><p><span><strong>Resistance (Disease)</strong> wyklucza <strong>Diseased (Type)</strong>.</span></p></li><li><p><span>Drugi poziom <strong>Monstrous Mass</strong> wymaga <strong>Age 4</strong>.</span></p></li></ul><h3><span>Talenty i umiejętności po przemianie</span></h3><p><span>Wampir nie może uczyć się <strong>Pray, Bless, Holy Hatred, Holy Visions, Invoke</strong> ani <strong>Pure Soul</strong>. Przy przemianie postaci zastosuj poniższe zamiany.</span></p><table><tbody><tr><th><p><span>Przed przemianą</span></p></th><th><p><span>Po przemianie</span></p></th></tr><tr><td><p><span>Pray</span></p></td><td><p><span>Channelling (Dhar)</span></p></td></tr><tr><td><p><span>Lore (Theology)</span></p></td><td><p><span>Language (Magick)</span></p></td></tr><tr><td><p><span>Bless</span></p></td><td><p><span>Petty Magic</span></p></td></tr><tr><td><p><span>Invoke</span></p></td><td><p><span>Arcane Magic (Necromancy)</span></p></td></tr><tr><td><p><span>Holy Hatred</span></p></td><td><p><span>Hatred (Cultists)</span></p></td></tr><tr><td><p><span>Holy Visions</span></p></td><td><p><span>Sixth Sense</span></p></td></tr><tr><td><p><span>Pure Soul</span></p></td><td><p><span>Strong-minded</span></p></td></tr><tr><td><p><span>Etiquette (Cultists)</span></p></td><td><p><span>Cat-tongued</span></p></td></tr><tr><td><p><span>Savant (Theology)</span></p></td><td><p><span>Savant (Necromancy)</span></p></td></tr></tbody></table><h3><span>Warianty profesji</span></h3><p><span>Wampirzy wariant zachowuje cechy, umiejętności, talenty, status i wyposażenie profesji podstawowej. Każdy poziom wariantu ma dodatkową listę darów krwi dostępnych do zakupu na tym poziomie.</span></p>"
+    ]
   }
 }

@@ -63,6 +63,20 @@ export function cleanDescription(old,canonical,baselines,name){
  // Match known module text only; keep personal additions and custom descriptions.
  return baseline!==undefined?canonical+text.slice(baseline.length):text.replace(/<details>\s*<summary>Tekst źródłowy[\s\S]*?<\/details>/g,'');
 }
+export function addGiftUsage(description, name, notes) {
+ if (!notes) return description;
+ let updated = description;
+ if (!/^<p><strong>(?:Użycie|Działanie):<\/strong>/.test(updated)) updated = notes.usage + updated;
+ if (name === 'Blood Burst') updated = updated.replace('Limit: Toughness Bonus.', 'Maksymalna liczba poziomów daru: Toughness Bonus.');
+ if (notes.rule && !updated.includes('wybrać Surprised zamiast Compulsion')) updated += notes.rule;
+ return updated;
+}
+
+export function addCompulsionRule(content, patch) {
+ if (!patch || !content.includes('Compulsion') || content.includes('Surprised na tę liczbę tur zamiast Compulsion')) return content;
+ return content.replace(patch.before, patch.after);
+}
+
 let migrationRun=Promise.resolve();
 export function migrateRefinements(){return migrationRun=migrationRun.catch(()=>{}).then(migrateState);}
 async function migrateState(){
@@ -70,13 +84,15 @@ async function migrateState(){
  const c=await data(),actors=new Map([...game.actors,...game.scenes.contents.flatMap(s=>s.tokens.map(t=>t.actor).filter(Boolean))].map(a=>[a.uuid,a]));
  const items=[...game.items,...[...actors.values()].flatMap(a=>[...a.items])];
  for(const item of items){
-  const kind=meta(item).kind,category={gift:'gifts',weakness:'weaknesses',spell:'spells'}[kind],revision=kind==='gift'?'2.3.2':kind==='spell'?'2.3.3-native2':'2.3.3-native';
+  const kind=meta(item).kind,category={gift:'gifts',weakness:'weaknesses',spell:'spells'}[kind],revision=kind==='gift'?'2.3.6':kind==='spell'?'2.3.3-native2':'2.3.3-native';
   if(!category||meta(item).revision===revision)continue;
   const source=c[category].find(i=>en(i)===en(item));if(!source)continue;
   const old=item.system.description.value,baselines=[c.migration230?.[en(item)]?.description,c.migration231?.[en(item)]?.description,c.migration232?.[en(item)]?.description].filter(s=>typeof s==='string');
-  const description=cleanDescription(old,source.system.description.value,baselines,en(item));
+  const currentGift = kind === 'gift' && ['2.3.2', '2.3.4'].includes(meta(item).revision);
+  const baseDescription = currentGift ? old : cleanDescription(old,source.system.description.value,baselines,en(item));
+  const description = kind === 'gift' ? addGiftUsage(baseDescription,en(item),c.giftUsage236?.[en(item)]) : baseDescription;
   const obsolete=new Set([...(c.migration230?.[en(item)]?.effects||[]),...(c.migration231?.[en(item)]?.effects||[]),...(c.migration233?.[en(item)]?.effects||[])]),kept=new Set(source.effects.map(e=>e._id));
-  const ids=item.effects.filter(e=>obsolete.has(e.id)&&!kept.has(e.id)).map(e=>e.id);if(ids.length)await item.deleteEmbeddedDocuments('ActiveEffect',ids,{render:false,ccMigration:true});
+  const ids=item.effects.filter(e=>obsolete.has(e.id)&&!kept.has(e.id)).map(e=>e.id);if(!currentGift&&ids.length)await item.deleteEmbeddedDocuments('ActiveEffect',ids,{render:false,ccMigration:true});
   if(kind==='spell')for(const raw of source.effects){const existing=item.effects.get(raw._id);if(existing)await existing.update(raw,{render:false,ccMigration:true});else await item.createEmbeddedDocuments('ActiveEffect',[raw],{render:false,ccMigration:true,keepId:true});}
   if(kind==='spell')for(const [key,values] of Object.entries(c.nativeSpellFields233?.[en(item)]||{}))if(item.system[key].value===values.old.value)await item.update({[`system.${key}.value`]:values.new.value},{render:false,ccMigration:true});
   if(kind==='spell'&&en(item)==='Curse of Years')await item.update({'system.overcast':source.system.overcast},{render:false,ccMigration:true});
@@ -94,7 +110,17 @@ async function migrateState(){
  for(const a of actors.values())for(const e of a.effects.filter(e=>e.statuses.has('cc-compulsion'))){const level=Math.max(1,Number(e.conditionValue)||Number(meta(e).stacks)||1),command=meta(e).commandText||'Polecenie';await e.update({name:`Compulsion — ${command} (${level})`,statuses:[],duration:{seconds:3600,startTime:e.duration.startTime??game.time.worldTime},'system.condition':{value:null,numbered:false},[`flags.${ID}.compulsion`]:true,[`flags.${ID}.stacks`]:level,'system.scriptData':[{label:'Compulsion — rozstrzygnij',trigger:'manual',script:`return game.modules.get('${ID}').api.resolveCompulsion(this.effect);`,options:{}},{label:`Compulsion — ${command}`,trigger:'dialog',script:`args.fields.modifier-=${10*level};`,options:{activateScript:'return false;'}}]});}
  for(const journal of game.journal){const sourceId=meta(journal).sourceId||journal._stats.compendiumSource?.split('.').at(-1),source=c.journals.find(j=>j._id===sourceId);if(!source||meta(journal).archivedLayout)continue;
   for(const page of source.pages){const existing=journal.pages.get(page._id)||journal.pages.find(p=>p.name===page.name);if(!existing){await journal.createEmbeddedDocuments('JournalEntryPage',[fresh(page)]);continue;}
-   const before=c.journalBaseline230?.[source._id]?.[page._id];if(before!==undefined&&existing.text.content===before&&before!==page.text.content)await existing.update({'text.content':page.text.content});
+   const before = c.journalBaseline230?.[source._id]?.[page._id];
+   const content = existing.text.content;
+   const updated = before !== undefined && content === before
+     ? page.text.content
+     : addCompulsionRule(content,c.compulsionJournal236?.[page._id]);
+   const bloodGiftPage = c.bloodGiftJournal237;
+   const baseline = page._id === bloodGiftPage?.pageId
+     ? bloodGiftPage.baselines.find(text => content.startsWith(text))
+     : undefined;
+   const merged = baseline === undefined ? updated : page.text.content + content.slice(baseline.length);
+   if (merged !== content) await existing.update({'text.content':merged});
   }
  }
 }

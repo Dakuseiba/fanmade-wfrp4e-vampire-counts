@@ -2,7 +2,7 @@
   "id": "wfrp4e-complete-counts-pl",
   "title": "Complete Counts PL — Władcy nocy",
   "description": "Fanowski dodatek wampiryczny Adama Lowe’a: polska adaptacja, kompendia i narzędzia do rozgrywki.",
-  "version": "2.3.3",
+  "version": "2.3.7",
   "authors": [
     {
       "name": "Adaptacja prywatna Complete Counts; źródło: Adam Lowe"
@@ -13,6 +13,9 @@
     "verified": "13.351",
     "maximum": "13"
   },
+  "socket": true,
+  "manifest": "https://github.com/Dakuseiba/fanmade-wfrp4e-vampire-counts/releases/latest/download/module.json",
+  "download": "https://github.com/Dakuseiba/fanmade-wfrp4e-vampire-counts/releases/download/2.3.3/wfrp4e-complete-counts-pl.zip",
   "relationships": {
     "systems": [
       {
